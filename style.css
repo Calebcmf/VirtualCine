@@ -2,95 +2,69 @@ body,html
 {
     padding: 0px;
     margin: 0px;
+    width: 100vh;
+    height: 100vw;
+}
+.esquerda
+{
+  width: 60%;
+  height: 100vh;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
 }
 .botton 
 {
-  background-color: #006dac;
-  color: white;
-  text-align: center;
-  width: 25%;
-  height: 10%;
-  cursor: pointer;
-  font-size: 145%;
-  position: absolute;
-  top: 70%;
-  left: 22%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 5px;
+  background-color: #2e76a000;
+  width: 70%;
+  height: 20%;
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
   animation: slideInUp 1s;
 }
-.botton1 
+button
 {
-  background-color: #006dac;
-  color: white;
-  text-align: center;
-  width: 25%;
-  height: 10%;
-  cursor: pointer;
-  font-size: 145%;
-  position: absolute;
-  top: 70%;
-  left: 52%;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 45%;
+  height: 50%;
   border-radius: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  animation: slideInUp 1s;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0069a7;
+  color: white;
+}
+button:hover
+{
+  background-color: #008ddf;
+  color: white;
+  cursor: pointer;
 }
 .fundo
 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    background-color: rgb(12, 12, 12);
-}
-.lado
-{
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background-color: rgb(12, 12, 12);
-    left: 0px;
-    top: 0px;
-    animation: slideInLeft 1s;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  flex-direction: row;
 }
 .titulo
 {
   color: white;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  top: 62%;
-  left: 25%;
-  position: absolute;
-}
-.imagem
-{
-  top: 0px;
-  right: 0px;
-  position: absolute;
-  animation: fadeIn 1s;
 }
 .gradiente
 {
-  width: 300px;
+  width: 20%;
   height: 100vh;
   background-image: linear-gradient( 90deg, rgb(12, 12, 12) 30%, rgba(0, 0, 0, 0) 100% ); 
   top: 0px;
-  left: 50%;
+  left: 60%;
   position: absolute;
-}
-.vc
-{
-  position: absolute;
-  left: 12%;
 }
