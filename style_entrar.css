@@ -1,5 +1,5 @@
 body,html
-    {
+{
     width: 100vw;
     height: 100vh;
     margin: 0px;
@@ -9,8 +9,8 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
- }
- .fundo
+}
+.fundo
 {
     width: 100%;
     height: 100vh;
@@ -22,11 +22,11 @@ body,html
     justify-items: center;
     justify-content: center;
     justify-content: space-around;
- }
+}
 .meio
 {
     width: 30%;
-    height: 80%;
+    height: 60%;
     background-color: rgb(37, 37, 37);
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ body,html
 .botoes
 {
     width: 90%;
-    height: 12%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,7 +72,7 @@ button
 }
 button.voltar:hover
 {
-    background-color:#eeeeee;;
+    background-color:  #eeeeee;;
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
@@ -87,19 +87,13 @@ fieldset
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     width: 80%;
-    height: 68%;
+    height: 55%;
     font-size: 25px;
 }
 .caixa_larga
 {
     width: 98%;
-    height: 11%;
-}
-a.link
-{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
+    height: 20%;
 }
 .escrita
 {
@@ -108,9 +102,15 @@ a.link
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 87%;
 }
-a.link2
+a.link1
 {
     text-decoration: none;
     color: rgb(35, 149, 255);
+    cursor: pointer;
+}
+a.link
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
