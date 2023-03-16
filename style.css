@@ -1,9 +1,9 @@
 body,html
 {
-    padding: 0px;
-    margin: 0px;
-    width: 100vh;
-    height: 100vw;
+  padding: 0px;
+  margin: 0px;
+  width: 100vh;
+  height: 100vw;
 }
 .esquerda
 {
@@ -68,3 +68,9 @@ button:hover
   left: 60%;
   position: absolute;
 }
+a
+  {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  }
