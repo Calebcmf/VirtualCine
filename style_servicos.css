@@ -1,0 +1,140 @@
+body,html
+    {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+ }
+ .fundo
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(12,12,12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+ }
+ .barra
+{
+    width: 85%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.pacotes
+{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.meio
+{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.botoes
+{
+    width: 90%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 30%;
+}
+button
+{
+    width: 60%;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0069a7;
+    color: white;
+}
+button:hover
+{
+    background-color: #008ddf;
+    color: white;
+    cursor: pointer;
+}
+fieldset
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 68%;
+    font-size: 25px;
+}
+.caixa_larga
+{
+    width: 98%;
+    height: 11%;
+}
+a.link
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 140%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.escrita
+{
+    color: white;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 87%;
+}
+a.link2
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.texto
+{
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
