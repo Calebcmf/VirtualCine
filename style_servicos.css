@@ -9,6 +9,7 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
+    overflow: hidden;
  }
  .fundo
 {
@@ -34,6 +35,19 @@ body,html
     justify-items: center;
     justify-content: center;
     justify-content: space-between;
+    animation: slideInDown 1.5s;
+}
+a.link
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 140%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a
+{
+    cursor: pointer;
 }
 .pacotes
 {
@@ -60,6 +74,7 @@ body,html
     justify-content: center;
     justify-content: space-around;
     border-radius: 10px;
+    animation: slideInUp 1.5s;
 }
 .botoes
 {
@@ -89,14 +104,6 @@ button:hover
     background-color: #008ddf;
     color: white;
     cursor: pointer;
-}
-a.link
-{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    font-size: 140%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .escrita
 {
@@ -136,8 +143,4 @@ a.link2
     align-content: center;
     justify-items: center;
     justify-content: center;
-}
-a
-{
-    cursor: pointer;
 }
