@@ -1,5 +1,5 @@
 body,html
-    {
+{
     width: 100vw;
     height: 100vh;
     margin: 0px;
@@ -9,7 +9,7 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
- }
+}
 .fundo
 {
     width: 100%;
@@ -22,11 +22,11 @@ body,html
     justify-items: center;
     justify-content: center;
     justify-content: space-around;
- }
+}
 .meio
 {
-    width: 30%;
-    height: 80%;
+    width: 35%;
+    height: 90%;
     background-color: rgb(37, 37, 37);
     display: flex;
     flex-direction: column;
@@ -36,7 +36,6 @@ body,html
     justify-content: center;
     justify-content: space-around;
     border-radius: 10px;
-    animation: slideInUp 1.5s;
 }
 .botoes
 {
@@ -51,60 +50,20 @@ body,html
     justify-content: space-around;
     border-radius: 30%;
 }
-fieldset
+button
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    width: 80%;
-    height: 68%;
-    font-size: 25px;
-}
-.caixa_larga
-{
-    width: 98%;
-    height: 11%;
-}
-a.link
-{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
-.escrita
-{
+    width: 45%;
+    height: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0069a7;
     color: white;
-    font-size: 120%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 87%;
 }
-.barra
+button:hover
 {
-    width: 85%;
-    height: 12vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    animation: slideInDown 1.5s;
-}
-a.link2
-{
-    text-decoration: none;
-    color: rgb(35, 149, 255);
-    cursor: pointer;
-}
-a.link3
-{
-    text-decoration: none;
+    background-color: #008ddf;
     color: white;
-    cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-a
-{
     cursor: pointer;
 }
 .voltar
@@ -123,7 +82,27 @@ button.voltar:hover
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-button
+fieldset
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 70%;
+    font-size: 23px;
+}
+.caixa_larga
+{
+    width: 90%;
+    height: 10%;
+}
+a.link
+{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.continuar
 {
     width: 45%;
     height: 100%;
@@ -133,7 +112,7 @@ button
     background-color: #0069a7;
     color: white;
 }
-button:hover
+button.continuar:hover
 {
     background-color: #008ddf;
     color: white;
