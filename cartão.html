@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style_cartão.css"/>
-    <title>CARTÃO</title>
+    <title>Pagamento</title>
 </head>
 <body>
     <div class="fundo">
@@ -18,12 +18,17 @@
                 Numero Do Catão:
                 <input type="number" class="caixa_larga" id="cpf" maxlength="11">
                 <br> <br>
-                CVV:
-                <input type="number" class="caixa_larga" id="number">
-                <br> <br>
-                Data de Validade
-                <input type="date" class="caixa_larga" id="number">
-                <br> <br>
+                <div class="data_valid">
+                    <div class="cvv">
+                        CVV: <br>
+                        <input type="number" class="caixa_larga1" id="number">
+                    </div>
+                    <div class="valid">
+                        Data de Validade: <br>
+                        <input type="date" class="caixa_larga1" id="number">
+                    </div>
+                </div>
+                <br>
                 Forma de Pagamento:
                 <select id="cartao" class="cartao">
                     <option>Cartão de Crédito</option>
