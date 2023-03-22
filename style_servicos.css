@@ -144,3 +144,9 @@ a.link2
     justify-items: center;
     justify-content: center;
 }
+.preço
+{
+    color: #008ddf;
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
