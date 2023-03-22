@@ -63,6 +63,7 @@ fieldset
 {
     width: 98%;
     height: 11%;
+    font-size: 80%;
 }
 a.link
 {
@@ -101,6 +102,7 @@ a.link3
     text-decoration: none;
     color: white;
     cursor: pointer;
+    font-size: 140%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a
