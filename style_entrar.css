@@ -97,6 +97,7 @@ fieldset
     width: 98%;
     height: 20%;
     font-size: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
 .escrita
 {

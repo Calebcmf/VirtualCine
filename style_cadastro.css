@@ -64,6 +64,7 @@ fieldset
     width: 98%;
     height: 11%;
     font-size: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
 a.link
 {
