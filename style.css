@@ -30,22 +30,6 @@ body,html
   justify-content: space-around;
   animation: slideInUp 1s;
 }
-button
-{
-  width: 45%;
-  height: 50%;
-  border-radius: 5px;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #0069a7;
-  color: white;
-}
-button:hover
-{
-  background-color: #008ddf;
-  color: white;
-  cursor: pointer;
-}
 .fundo
 {
   height: 100vh;
@@ -69,9 +53,27 @@ button:hover
   left: 60%;
   position: absolute;
 }
-a
-  {
+.dt
+{
   text-decoration: none;
-  color: rgb(255, 255, 255);
   cursor: pointer;
-  }
+  width: 45%;
+  height: 50%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color:#0069a7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.dt:hover
+{
+  background-color: #008ddf;
+  color: white;
+  cursor: pointer;
+}

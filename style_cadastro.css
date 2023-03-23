@@ -9,6 +9,7 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
+    overflow: hidden;
  }
 .fundo
 {
@@ -21,7 +22,6 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
-    justify-content: space-around;
  }
 .meio
 {
@@ -66,12 +66,6 @@ fieldset
     font-size: 80%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
-a.link
-{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
 .escrita
 {
     color: white;
@@ -110,42 +104,53 @@ a
 {
     cursor: pointer;
 }
-.voltar
+.link
 {
-    width: 45%;
-    height: 100%;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #cfcfcf;
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  width: 45%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:#cfcfcf;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
 }
-button.voltar:hover
+.link:hover
 {
-    background-color:  #eeeeee;;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
+  background-color: #e7e7e7;
+  color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
-button
+.link4
 {
-    width: 45%;
-    height: 100%;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #0069a7;
-    color: white;
+  text-decoration: none;
+  cursor: pointer;
+  width: 45%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color:#0069a7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
 }
-button:hover
+.link4:hover
 {
-    background-color: #008ddf;
-    color: white;
-    cursor: pointer;
-}
-a.link4
-{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:#008ddf;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }

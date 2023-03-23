@@ -9,6 +9,7 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .fundo
 {
@@ -21,12 +22,11 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
-    justify-content: space-around;
 }
 .meio
 {
     width: 30%;
-    height: 80%;
+    height: 70%;
     background-color: rgb(37, 37, 37);
     display: flex;
     flex-direction: column;
@@ -36,11 +36,12 @@ body,html
     justify-content: center;
     justify-content: space-around;
     border-radius: 10px;
+    animation: slideInUp 1.5s;
 }
 .botoes
 {
     width: 90%;
-    height: 12%;
+    height: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,57 +51,25 @@ body,html
     justify-content: space-around;
     border-radius: 30%;
 }
-button
-{
-    width: 45%;
-    height: 100%;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #0069a7;
-    color: white;
-}
-button:hover
-{
-    background-color: #008ddf;
-    color: white;
-    cursor: pointer;
-}
-.voltar
-{
-    width: 45%;
-    height: 100%;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #cfcfcf;
-    color: rgb(0, 0, 0);
-}
-button.voltar:hover
-{
-    background-color:  #eeeeee;;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-}
 fieldset
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     width: 80%;
-    height: 70%;
+    height: 72%;
     font-size: 23px;
 }
 .caixa_larga
 {
     width: 90%;
-    height: 10%;
+    height: 12%;
     font-size: 80%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
 .cartao
 {
     width: 60%;
-    height: 10%;
+    height: 12%;
     font-size: 80%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
@@ -110,22 +79,6 @@ a.link
     color: black;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.continuar
-{
-    width: 45%;
-    height: 100%;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #0069a7;
-    color: white;
-}
-button.continuar:hover
-{
-    background-color: #008ddf;
-    color: white;
-    cursor: pointer;
 }
 a.link4
 {
@@ -149,7 +102,7 @@ a.link4
 .caixa_larga1
 {
     width: 98%;
-    height: 50%;
+    height: 60%;
     font-size: 80%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
@@ -172,4 +125,81 @@ a.link4
     justify-content: space-around;
     width: 35%;
     height: 100%;
+}
+.barra
+{
+    width: 85%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    animation: slideInDown 1.5s;
+}
+a.link2
+{
+    text-decoration: none;
+    color: rgb(35, 149, 255);
+    cursor: pointer;
+}
+a.link3
+{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 140%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link
+{
+  text-decoration: none;
+  cursor: pointer;
+  width: 45%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:#cfcfcf;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.link:hover
+{
+  background-color: #e7e7e7;
+  color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+.link4
+{
+  text-decoration: none;
+  cursor: pointer;
+  width: 45%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color:#0069a7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.link4:hover
+{
+  background-color:#008ddf;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
