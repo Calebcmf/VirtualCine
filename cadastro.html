@@ -29,7 +29,8 @@
                 <input type="text" class="caixa_larga" id="e-mail">
                 <br> <br>
                 Senha:
-                <input type="password" class="caixa_larga" id="senha">
+                <input type="password" class="caixa_larga1" id="senha" onkeyup="ValidacaoSenha();">
+                <div id="erro" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
             </fieldset>
             <div class="escrita">
                 Já possui conta?
@@ -41,4 +42,22 @@
             </div>
         </div>
 </body>
+<script>
+    function ValidacaoSenha()
+    {
+        var regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,}$/;
+        texto= senha.value;
+        resposta= regex.test(texto);
+        if(resposta==false)
+        {
+            senha.classList.remove('certo');
+            senha.classList.add('errado');
+        }
+        if(resposta==true)
+        {
+            senha.classList.remove('errado');
+            senha.classList.add('certo');
+        }
+    }
+</script>
 </html>

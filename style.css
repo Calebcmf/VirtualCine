@@ -28,7 +28,6 @@ body,html
   align-items: center;
   align-content: center;
   justify-content: space-around;
-  animation: slideInUp 1s;
 }
 .fundo
 {
@@ -70,6 +69,7 @@ body,html
   align-content: center;
   justify-items: center;
   justify-content: center;
+  animation: slideInUp 1.5s;
 }
 .dt:hover
 {

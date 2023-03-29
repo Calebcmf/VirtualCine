@@ -1,5 +1,5 @@
 body,html
-    {
+{
     width: 100vw;
     height: 100vh;
     margin: 0px;
@@ -56,7 +56,7 @@ fieldset
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     width: 80%;
-    height: 68%;
+    height: 70%;
     font-size: 25px;
 }
 .caixa_larga
@@ -65,6 +65,14 @@ fieldset
     height: 11%;
     font-size: 80%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+.caixa_larga1
+{
+    width: 98%;
+    height: 11%;
+    font-size: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    outline: none;
 }
 .escrita
 {
@@ -153,4 +161,25 @@ a
   color: white;
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+.errado
+{
+    border-color: rgb(255, 53, 53);
+    border-radius: 1px;
+    border-style: solid;
+    background-color: rgb(255, 232, 232);
+}
+.certo
+{
+    border-color: rgb(67, 255, 67);
+    border-radius: 1px;
+    border-style: solid;
+    background-color: rgb(237, 255, 237);
+}
+.alerta
+{
+    color: rgb(255, 187, 187);
+    font-size: 48%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
 }
