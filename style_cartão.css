@@ -203,3 +203,25 @@ a.link3
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
+.errado
+{
+    border-color: rgb(255, 53, 53);
+    border-radius: 1px;
+    border-style: solid;
+    background-color: rgb(255, 232, 232);
+}
+.certo
+{
+    border-color: rgb(67, 255, 67);
+    border-radius: 1px;
+    border-style: solid;
+    background-color: rgb(237, 255, 237);
+}
+.caixa_larga2
+{
+    width: 98%;
+    height: 11%;
+    font-size: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    outline: none;
+}

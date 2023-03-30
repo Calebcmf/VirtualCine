@@ -23,7 +23,7 @@
                 <input type="text" class="caixa_larga" id="nome">
                 <br> <br>
                 Numero do Cartão:
-                <input type="number" class="caixa_larga" id="cpf" maxlength="11">
+                <input type="text" class="caixa_larga2" id="num_cartao" onkeyup="ValidacaoNum();">
                 <br> <br>
                 <div class="data_valid">
                     <div class="cvv">
@@ -48,4 +48,22 @@
             </div>
         </div>
 </body>
+<script>
+    function ValidacaoNum()
+    {
+        var regex = /^(\d{4}[- ]){3}\d{4}|\d{16}$/;
+        texto= num_cartao.value;
+        resposta= regex.test(texto);
+        if(resposta==false)
+        {
+            num_cartao.classList.remove('certo');
+            num_cartao.classList.add('errado');
+        }
+        if(resposta==true)
+        {
+            num_cartao.classList.remove('errado');
+            num_cartao.classList.add('certo');
+        }
+    }
+</script>
 </html>
