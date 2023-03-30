@@ -26,7 +26,7 @@
                 <input type="number" class="caixa_larga" id="cpf" maxlength="11">
                 <br> <br>
                 E-mail:
-                <input type="text" class="caixa_larga" id="e-mail">
+                <input type="text" class="caixa_larga1" id="email" onkeyup="ValidacaoEmail();">
                 <br> <br>
                 Senha:
                 <input type="password" class="caixa_larga1" id="senha" onkeyup="ValidacaoSenha();">
@@ -59,6 +59,22 @@
             document.getElementById("erro").style.display = "none";
             senha.classList.remove('errado');
             senha.classList.add('certo');
+        }
+    }
+    function ValidacaoEmail() 
+    {
+        var regex = /^\S+@\S+\.\S+$/;
+        texto= email.value;
+        resposta= regex.test(texto);
+        if(resposta==false)
+        {
+            email.classList.remove('certo');
+            email.classList.add('errado');
+        }
+        if(resposta==true)
+        {
+            email.classList.remove('errado');
+            email.classList.add('certo');
         }
     }
 </script>
