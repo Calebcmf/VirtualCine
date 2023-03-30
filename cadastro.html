@@ -30,7 +30,7 @@
                 <br> <br>
                 Senha:
                 <input type="password" class="caixa_larga1" id="senha" onkeyup="ValidacaoSenha();">
-                <div id="erro" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
+                <div id="erro" class="aviso" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
             </fieldset>
             <div class="escrita">
                 Já possui conta?
@@ -52,9 +52,11 @@
         {
             senha.classList.remove('certo');
             senha.classList.add('errado');
+            document.getElementById("erro").style.display = "flex";
         }
         if(resposta==true)
         {
+            document.getElementById("erro").style.display = "none";
             senha.classList.remove('errado');
             senha.classList.add('certo');
         }
