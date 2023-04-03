@@ -60,6 +60,7 @@ body,html
   border-radius: 20px;
   border-color: #3b3b3b;
   border: solid;
+  padding-left: 10px;
 }
 button.botao_enviar
 {
