@@ -28,7 +28,7 @@
 
 <script>
 
-  topico = "virtualcine/contato";  // Variável que ficará no servidor MQTT
+  topico = "virtualcine123/contato";  // Variável que ficará no servidor MQTT
 
   // Conexão:
   client = new Paho.MQTT.Client("broker.hivemq.com", Number(8000), "");
@@ -55,17 +55,20 @@
 
   // Função executada quando a variável (tópico) no servidor receber uma mensagem:
   function MensagemRecebida(message) {
-      resposta.innerHTML += "<br><br>" + message.payloadString;
+    resposta.innerHTML += "<br><br>" + message.payloadString;
   }
 
   function Enviar()
   {
-    texto = mensagem.value;
-
-    message = new Paho.MQTT.Message(texto);
-    message.destinationName = topico;
+  texto = mensagem.value;
+ 
+  message = new Paho.MQTT.Message(texto);
+  message.destinationName = topico;
+  if(texto != "")
+  {
     client.send(message);
-    mensagem.value = " ";
+    mensagem.value = "";
+  }
   }
 
 </script>
