@@ -17,24 +17,27 @@
             <a href="cadastro.html" target="_self" class="link3">Cadastro</a>
         </div>
         <div class="meio">
-            <fieldset>
-                <legend>ENTRAR</legend>
-                E-mail:
-                <br>
-                <input type="text" class="caixa_larga" id="e-mail">
-                <br> <br>
-                Senha:
-                <br>
-                <input type="password" class="caixa_larga" id="senha">
-            </fieldset>
-            <div class="escrita">
-                Não possui conta?
-                <a href="cadastro.html" target="_self" class="link1">Cadastra-se</a>
-            </div>
-            <div class="botoes">
-                <a href="inicio.html" target="_self" class="link">Voltar</a> 
-                <button>Continuar</button>
-            </div>
+            <form class="formulario" action="atividade.php" method="post" target="_blank">
+                <fieldset>
+                    <legend>ENTRAR</legend>
+                    E-mail:
+                    <br>
+                    <input type="text" class="caixa_larga" id="e-mail" name="email">
+                    <br> <br>
+                    Senha:
+                    <br>
+                    <input type="password" class="caixa_larga" id="senha" name="senha">
+                </fieldset>
+                <div class="escrita">
+                    Não possui conta?
+                    <a href="cadastro.html" target="_self" class="link1">Cadastra-se</a>
+                </div>
+                <div class="botoes">
+                    <a href="inicio.html" target="_self" class="link">Voltar</a> 
+                    <input type="submit" value="Continuar">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
