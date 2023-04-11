@@ -55,6 +55,15 @@ body,html
   left: 60%;
   position: absolute;
 }
+.gradiente1
+{
+  width: 40%;
+  height: 30%;
+  background-image: linear-gradient(to top, rgb(12, 12, 12) 30%, rgba(0, 0, 0, 0) 100% ); 
+  top: 610px;
+  left: 60%;
+  position: absolute;
+}
 .dt
 {
   text-decoration: none;
