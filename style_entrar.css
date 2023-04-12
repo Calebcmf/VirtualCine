@@ -142,3 +142,28 @@ a
     justify-content: center;
     justify-content: space-around;
 }
+.continuar
+{
+  text-decoration: none;
+  cursor: pointer;
+  width: 45%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color:#0069a7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.continuar:hover
+{
+  background-color:#008ddf;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
