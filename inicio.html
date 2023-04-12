@@ -7,10 +7,20 @@
     <title>Virtual Cine</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="style.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_menu.css">
 </head>
 <body>
-    <div class="fundo">
+    <nav>
+        <div class="logo"> Virtual Cine </div>
+        <ul>
+            <li> <a href="#Home"> Home </a> </li>
+            <li> <a href="#pacotes"> Pacotes</a> </li>
+            <li> <a href="#parceria"> Parceria</a> </li>
+        </ul>
+    </nav>
+
+    <div class="fundo" id="Home">
         <div class="esquerda">
             <img src="logo.png" width="45%"
             top="20%"
@@ -18,47 +28,54 @@
             <div class="titulo"> O cinema completo em sua casa </div>
             <div class="botton">
                 <a href="entrar.html" target="_blank" class="dt">Entrar</a>
-                <a href="servicos.html" target="_self" class="dt">Assine Agora</a>
+                <a href="#pacotes" target="_self" class="dt">Assine Agora</a>
             </div>
         </div>
         <div class="gradiente"></div>
         <img src="tvlizao.png" width="40%">
         <div class="gradiente1"></div>
     </div>
-    <br> <br><br> <br><br> <br>
-        <div class="pacotes">
-            <div class="meio">
+    <br> <br><br> <br><br> 
+    <div class="pacotes" id="pacotes">
+        <div class="meio">
+            <br>
+            <div class="texto_imagem">
+                <img src="camera.png" width="40%">
                 <br>
-                <div class="texto_imagem">
-                    <img src="camera.png" width="40%">
-                    <br>
-                    <div class="preço">
-                        R$10,00
-                    </div>
-                    <div class="texto">
-                        <em>Streaming com flimes 2D <br> em uma tela</em>
-                    </div>
-                </div>  
-                <div class="botoes">
-                    <a href="cadastro.html" target="_self" class="link2">Assine Agora</a> 
+                <div class="preço">
+                    R$10,00
+                </div>
+                <div class="texto">
+                    <em>Streaming com flimes 2D <br> em uma tela</em>
+                </div>
+            </div>  
+            <div class="botoes">
+                <a href="cadastro.html" target="_self" class="link2">Assine Agora</a> 
+            </div>
+        </div>
+        <div class="meio">
+            <br>
+            <div class="texto_imagem">
+                <img src="oculos_camera.png" width="110%">
+                <br>
+                <div class="preço">
+                    R$20,00
+                </div>
+                <div class="texto">
+                    <em>Streaming com flimes 2D e 3D <br> + oculos 3D</em>
                 </div>
             </div>
-            <div class="meio">
-                <br>
-                <div class="texto_imagem">
-                    <img src="oculos_camera.png" width="110%">
-                    <br>
-                    <div class="preço">
-                        R$20,00
-                    </div>
-                    <div class="texto">
-                        <em>Streaming com flimes 2D e 3D <br> + oculos 3D</em>
-                    </div>
-                </div>
-                <div class="botoes"> 
-                    <a href="cadastro.html" target="_self" class="link2">Assine Agora</a> 
-                </div>
+            <div class="botoes"> 
+                <a href="cadastro.html" target="_self" class="link2">Assine Agora</a> 
             </div>
-        </div>    
+        </div>
+    </div>   
+    <br> <br><br> <br>
+    <div id="parceria"></div>
+    <br><br><br> <br> <br> <br> 
+    <div class="parceria">
+        <p>Patrocínios</p>
+        <img src="pixar.png" width="100%">
+    </div>
 </body>
 </html>
