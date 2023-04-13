@@ -73,19 +73,6 @@ body,html
   color: white;
   cursor: pointer;
 }
-.barra
-{
-    width: 85%;
-    height: 12vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    animation: slideInDown 1.5s;
-}
 a.link
 {
     text-decoration: none;
@@ -249,7 +236,7 @@ a
 }
 .parceria_imagem
 {
-  left: 90px;
-  top: 145px;
+  left: 150px;
+  top: 160px;
   position: absolute;
 }
