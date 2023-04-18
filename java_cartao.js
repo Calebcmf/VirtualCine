@@ -1,6 +1,8 @@
 function ValidacaoNum()
     {
-        var regex = /^(\d{4}[- ]){3}\d{4}|\d{16}$/;
+        var regex = /^(\d{4}[- ]){3}\d{4}|\d{16}$/g;
+        // (\d{4}[- ]){3}      quatro números seguidos e um espaço ou "-" 
+        //                     repetidos 3 vezes.
         texto = num_cartao.value;
         resposta = regex.test(texto);
         if(resposta == false)

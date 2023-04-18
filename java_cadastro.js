@@ -1,17 +1,22 @@
 function ValidacaoSenha()
     {
-        var regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,}$/;
+        var regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,}$/g;
+        // (?=.*[A-Z])                  input = (qualquer número de digitos) de qualquer letra maiúscula.
+        // (?=.*\d)                     input = (qualquer número de digitos) de qualquer número.
+        // (?=.*[!@#$%^&*()_+])         input = (qualquer número de digitos) de símbolos.
+        // [A-Za-z\d!@#$%^&*()_+]{8,}   input = Se possui no mínimo 8 digítos com letras maíusculas, 
+        //                                      símbolos e números.
         texto= senha.value;
         resposta= regex.test(texto);
         if(resposta==false)
         {
             senha.classList.remove('certo');
             senha.classList.add('errado');
-            document.getElementById("erro").style.display = "flex";
+            erro.style.display = "flex";
         }
         if(resposta==true)
         {
-            document.getElementById("erro").style.display = "none";
+            erro.style.display = "none";
             senha.classList.remove('errado');
             senha.classList.add('certo');
         }
@@ -19,6 +24,7 @@ function ValidacaoSenha()
     function ValidacaoEmail() 
     {
         var regex = /^\S+@\S+\.\S+$/;
+        // \S+  =   corresponde a um ou mais caracteres que não são espaços em branco.
         texto= email.value;
         resposta= regex.test(texto);
         if(resposta==false)
