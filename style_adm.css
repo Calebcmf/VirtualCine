@@ -1,0 +1,155 @@
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 3, 24);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.dados
+{
+    height: 75%;
+    width:60%;
+    background-color:#033857;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+}
+.botoes
+{
+    height: 50px;
+    width: 80%;
+    top: 83%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+button
+{
+  text-decoration: none;
+  cursor: pointer;
+  width: 30%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:#c0c0c0;
+}
+button:hover
+{
+  background-color: #e7e7e7;
+  color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+.excluir
+{
+  text-decoration: none;
+  cursor: pointer;
+  width: 30%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  background-color:#8d0707;
+}
+.excluir:hover
+{
+  background-color: #b81b1b;
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+.titulo
+{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.texto
+{
+    height: 370px;
+    width: 79%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    overflow-y: scroll;
+    border-radius: 2px;
+    border: solid;
+    border-color: rgb(190, 190, 190);
+    padding-left: 15px;
+}
+.barra
+{
+    width: 75%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    animation: slideInDown 1.5s;
+    position: fixed;
+    top: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caixa
+{
+    width: 90%;
+    height: 25px;
+}
+.pesquisar
+{
+    height: 7%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+.caixa_pesquisar
+{
+    width: 90%;
+    height: 85%;
+}
+.pesquisar_botao
+{
+  text-decoration: none;
+  cursor: pointer;
+  width: 6%;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  background-color:#c0c0c0;
+}
+.pesquisar_botao:hover
+{
+  background-color: #c7c7c7;
+  color: black;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
