@@ -20,27 +20,34 @@
             <fieldset>
                 <legend>FORMAS DE PAGAMENTO</legend>
                 Titular Do Cartão:
-                <input type="text" class="caixa_larga2" id="nome">
+                <input type="text" class="caixa_larga2" placeholder="Nome do Titular" id="nome">
                 <br> <br>
                 Numero do Cartão:
-                <input type="text" class="caixa_larga2" id="num_cartao" onkeyup="ValidacaoNum();">
+                <input type="text" class="caixa_larga2" id="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
                 <br> <br>
                 <div class="data_valid">
                     <div class="cvv">
                         CVV: <br>
-                        <input type="number" class="caixa_larga1" id="number">
+                        <input type="number" class="caixa_larga1" placeholder="- - -" id="cvv" onkeyup="ValidacaoCVV();">
                     </div>
                     <div class="valid">
-                        Data de Validade: <br>
-                        <input type="date" class="caixa_larga1" id="number">
+                        Validade: <br>
+                        <input type="date" class="caixa_larga1" id="valid">
                     </div>
                 </div>
                 <br>
-                Forma de Pagamento:
-                <select id="cartao" class="cartao">
-                    <option>Cartão de Crédito</option>
-                    <option>Cartão de Débito</option>
-                </select>
+                Tipo do Cartão: <br>
+                <div class="cartao_bandeira">
+                    <select onchange="ValidarBandeira();" id="cartao" class="cartao">
+                        <option value="credito">Cartão de Crédito</option>
+                        <option value="debito">Cartão de Débito</option>
+                    </select>
+                    <select id="bandeira" class="bandeira">
+                        <option>MasterCard</option>
+                        <option>Elo</option>
+                        <option>Visa</option>
+                    </select>
+                </div>
                 </fieldset>
             <div class="botoes"> 
                 <a href="cadastro.html" target="_self" class="link">Voltar</a> 

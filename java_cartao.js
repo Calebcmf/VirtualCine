@@ -16,3 +16,32 @@ function ValidacaoNum()
             num_cartao.classList.add('certo');
         }
     }
+
+function ValidacaoCVV()
+    {
+        var regex = /^(\d{3})$/g;
+        texto = cvv.value;
+        resposta = regex.test(texto);
+        if(resposta == false)
+        {
+            cvv.classList.remove('certo');
+            cvv.classList.add('errado');
+        }
+        if(resposta == true)
+        {
+            cvv.classList.remove('errado');
+            cvv.classList.add('certo');
+        }
+    }
+
+function ValidarBandeira()
+    {
+        if(cartao.value == 'credito')
+        {
+            document.getElementById('bandeira').style.display = 'flex';
+        }
+        if(cartao.value == 'debito')
+        {
+            document.getElementById('bandeira').style.display = 'none';
+        }
+    }

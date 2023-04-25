@@ -19,18 +19,23 @@
         <div class="meio">  
             <fieldset>
                 <legend>CADASTRAR ENDEREÇO</legend>
+                CEP: <br>
                 <input type="text" class="caixa_larga2" id="cep" placeholder="CEP" onblur="pesquisacep(this.value);">
-                <br><br>
+                <br>Lougadouro:<br>
                 <input type="text" class="caixa_larga2" placeholder="Logadouro" id="rua">
-                <br><br>
+                <br>Bairro:<br>
                 <input type="text" class="caixa_larga2" placeholder="Bairro" id="bairro">
-                <br><br>
                 <div class="conjunto">
-                    <input type="text" class="caixa_larga1" placeholder="Cidade" id="cidade">
-                    <br>
-                    <input type="text" class="caixa_larga1" placeholder="Estado" id="uf">
+                    <div class="c_cidade">
+                        Cidade:<br>
+                        <input type="text" class="caixa_larga1" placeholder="Cidade" id="cidade">
+                    </div>
+                    <div class="c_estado">
+                        Estado:<br>
+                        <input type="text" class="caixa_larga1" placeholder="Estado" id="uf">
+                    </div>
                 </div>
-                <br>
+                Numero da Residência: <br>
                 <input type="text" class="caixa_larga2" placeholder="Número" id="numero">
             </fieldset>
             <div class="botoes"> 
