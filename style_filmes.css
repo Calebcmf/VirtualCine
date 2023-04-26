@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body
 {
     height: 300vh;
@@ -45,3 +48,7 @@ body
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }   
+.filme_imagem
+{
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.281);
+}
