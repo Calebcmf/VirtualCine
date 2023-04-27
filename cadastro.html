@@ -16,30 +16,32 @@
             </a>
             <div class="link3"></div>
         </div>
-        <div class="meio">  
-            <fieldset>
-                <legend>CADASTRO</legend>
-                Nome Completo:
-                <input type="text" class="caixa_larga" id="nome">
-                <br> <br>
-                CPF:
-                <input type="text" class="caixa_larga1" id="cpf" onkeyup="ValidacaoCPF();">
-                <br> <br>
-                E-mail:
-                <input type="text" class="caixa_larga1" id="email" onkeyup="ValidacaoEmail();">
-                <br> <br>
-                Senha:
-                <input type="password" class="caixa_larga1" id="senha" onkeyup="ValidacaoSenha();">
-                <div id="erro" class="aviso" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
-            </fieldset>
-            <div class="escrita">
-                Já possui conta?
-                <a href="entrar.html" target="_self" class="link2">Entrar</a>
-            </div>
-            <div class="botoes">
-                <a href="inicio.html" target="_self" class="link">Voltar</a> 
-                <a href="cartão.html" target="_self" class="link4">Continuar</a>
-            </div>
+        <div class="meio"> 
+            <form class="formulario" action="inserir.php" method="post">
+                <fieldset>
+                    <legend>CADASTRO</legend>
+                    Nome Completo:
+                    <input type="text" class="caixa_larga" name="nome" id="nome">
+                    <br> <br>
+                    CPF:
+                    <input type="text" class="caixa_larga1" name="cpf" id="cpf" onkeyup="ValidacaoCPF();">
+                    <br> <br>
+                    E-mail:
+                    <input type="text" class="caixa_larga1" name="email" id="email" onkeyup="ValidacaoEmail();">
+                    <br> <br>
+                    Senha:
+                    <input type="password" class="caixa_larga1" name="senha" id="senha" onkeyup="ValidacaoSenha();">
+                    <div id="erro" class="aviso" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
+                </fieldset>
+                <div class="escrita">
+                    Já possui conta?
+                    <a href="entrar.html" target="_self" class="link2">Entrar</a>
+                </div>
+                <div class="botoes">
+                    <a href="inicio.html" target="_self" class="link">Voltar</a> 
+                    <input type="submit" value="Continuar" class="link4">
+                </div>
+            </form>
         </div>
     </div>
 </body>
