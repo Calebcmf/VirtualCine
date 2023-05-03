@@ -1,5 +1,5 @@
 <?php 
-    include("php_conecta.php");
+    include("../php_conecta.php");
 
     $titular = $_POST["titular"];
     $numero = $_POST["num_cartao"];
@@ -11,5 +11,5 @@
     $resultado = $comando->execute();
  
     //para voltar no fomulário:
-    header("Location: endereco.html");
+    header("Location: ../endereco/endereco.html");
 ?>

@@ -1,5 +1,5 @@
 <?php 
-    include("php_conecta.php");
+    include("../php_conecta.php");
 
     $cep = $_POST["cep"];
     $rua = $_POST["lougadouro"];
@@ -13,5 +13,5 @@
     $resultado = $comando->execute();
  
     //para voltar no fomulário:
-    header("Location: tela_filmes.html");
+    header("Location: ../filmes/tela_filmes.html");
 ?>

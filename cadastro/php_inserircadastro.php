@@ -1,5 +1,5 @@
 <?php 
-    include("php_conecta.php");
+    include("../php_conecta.php");
 
     $nome = $_POST["nome"];
     $cpf = $_POST["cpf"];
@@ -11,5 +11,5 @@
     $resultado = $comando->execute();
  
     //para voltar no fomulário:
-    header("Location: cartão.html");
+    header("Location: ../cartao/cartão.html");
 ?>
