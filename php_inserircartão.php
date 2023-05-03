@@ -6,7 +6,7 @@
     $cvv = $_POST["cvv"];
     $valid = $_POST["valid"];
 
-    $comando = $pdo->prepare("INSERT INTO usuario(titular,num_cartao,cvv,validade) VALUES ('$titular', '$numero','$cvv', '$valid')");
+    $comando = $pdo->prepare("INSERT INTO cartao(titular,num_cartao,cvv,validade) VALUES ('$titular', '$numero','$cvv', '$valid')");
 
     $resultado = $comando->execute();
  

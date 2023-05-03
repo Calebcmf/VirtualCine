@@ -24,6 +24,18 @@ body,html
     justify-content: center;
     background-image: linear-gradient(310deg, rgba(5, 36, 83, 0.774), rgba(255,0,0,0));
 }
+.formulario
+{
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
 .meio
 {
     width: 30%;

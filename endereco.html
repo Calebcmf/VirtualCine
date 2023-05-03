@@ -17,31 +17,33 @@
             <div class="link3"></div>
         </div>
         <div class="meio">  
-            <fieldset>
-                <legend>CADASTRAR ENDEREÇO</legend>
-                CEP: <br>
-                <input type="text" class="caixa_larga2" id="cep" placeholder="CEP" onblur="pesquisacep(this.value);">
-                <br>Lougadouro:<br>
-                <input type="text" class="caixa_larga2" placeholder="Logadouro" id="rua">
-                <br>Bairro:<br>
-                <input type="text" class="caixa_larga2" placeholder="Bairro" id="bairro">
-                <div class="conjunto">
-                    <div class="c_cidade">
-                        Cidade:<br>
-                        <input type="text" class="caixa_larga1" placeholder="Cidade" id="cidade">
+            <form class="formulario" action="php_inserirendereco.php" method="post">
+                <fieldset>
+                    <legend>CADASTRAR ENDEREÇO</legend>
+                    CEP: <br>
+                    <input type="text" class="caixa_larga2" name="cep" id="cep" placeholder="CEP" onblur="pesquisacep(this.value);">
+                    <br>Lougadouro:<br>
+                    <input type="text" class="caixa_larga2" name="lougadouro" placeholder="Logadouro" id="rua">
+                    <br>Bairro:<br>
+                    <input type="text" class="caixa_larga2" name="bairro" placeholder="Bairro" id="bairro">
+                    <div class="conjunto">
+                        <div class="c_cidade">
+                            Cidade:<br>
+                            <input type="text" class="caixa_larga1" name="cidade" placeholder="Cidade" id="cidade">
+                        </div>
+                        <div class="c_estado">
+                            Estado:<br>
+                            <input type="text" class="caixa_larga1" name="estado" placeholder="Estado" id="uf">
+                        </div>
                     </div>
-                    <div class="c_estado">
-                        Estado:<br>
-                        <input type="text" class="caixa_larga1" placeholder="Estado" id="uf">
-                    </div>
+                    Núm. da Residência: <br>
+                    <input type="text" class="caixa_larga2" name="numero_endereco" placeholder="Número" id="numero">
+                </fieldset>
+                <div class="botoes"> 
+                    <a href="cartão.html" target="_self" class="link">Voltar</a> 
+                    <input type="submit" value="Continue" class="link4">
                 </div>
-                Núm. da Residência: <br>
-                <input type="text" class="caixa_larga2" placeholder="Número" id="numero">
-            </fieldset>
-            <div class="botoes"> 
-                <a href="cartão.html" target="_self" class="link">Voltar</a> 
-                <a href="tela_filmes.html" target="_self" class="link4">Continuar</a> 
-            </div>
+            </form>
         </div>
 </body>
 
