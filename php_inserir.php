@@ -9,7 +9,7 @@
     $comando = $pdo->prepare("INSERT INTO usuario(nome,cpf,email,senha) VALUES ('$nome', '$cpf','$email', '$senha')");
 
     $resultado = $comando->execute();
-
+ 
     //para voltar no fomulário:
     header("Location: cartão.html");
 ?>

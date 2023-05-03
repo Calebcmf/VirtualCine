@@ -17,42 +17,44 @@
             <div class="link3"></div>
         </div>
         <div class="meio">  
-            <fieldset>
-                <legend>FORMAS DE PAGAMENTO</legend>
-                Titular Do Cartão:
-                <input type="text" class="caixa_larga2" placeholder="Nome do Titular" id="nome">
-                <br> <br>
-                Numero do Cartão:
-                <input type="text" class="caixa_larga2" id="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
-                <br> <br>
-                <div class="data_valid">
-                    <div class="cvv">
-                        CVV: <br>
-                        <input type="number" class="caixa_larga1" placeholder="- - -" id="cvv" onkeyup="ValidacaoCVV();">
+            <form class="formulario" action="php_inserircartão.php" method="post">
+                <fieldset>
+                    <legend>FORMAS DE PAGAMENTO</legend>
+                    Titular Do Cartão:
+                    <input type="text" class="caixa_larga2" name="titular" placeholder="Nome do Titular" id="nome">
+                    <br> <br>
+                    Numero do Cartão:
+                    <input type="text" class="caixa_larga2" id="num_cartao" name="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
+                    <br> <br>
+                    <div class="data_valid">
+                        <div class="cvv">
+                            CVV: <br>
+                            <input type="number" class="caixa_larga1" name="cvv" placeholder="- - -" id="cvv" onkeyup="ValidacaoCVV();">
+                        </div>
+                        <div class="valid">
+                            Validade: <br>
+                            <input type="date" class="caixa_larga1" name="valid" id="valid">
+                        </div>
                     </div>
-                    <div class="valid">
-                        Validade: <br>
-                        <input type="date" class="caixa_larga1" id="valid">
+                    <br>
+                    Tipo do Cartão: <br>
+                    <div class="cartao_bandeira">
+                        <select onchange="ValidarBandeira();" id="cartao" class="cartao">
+                            <option value="credito">Cartão de Crédito</option>
+                            <option value="debito">Cartão de Débito</option>
+                        </select>
+                        <select id="bandeira" class="bandeira">
+                            <option>MasterCard</option>
+                            <option>Elo</option>
+                            <option>Visa</option>
+                        </select>
                     </div>
-                </div>
-                <br>
-                Tipo do Cartão: <br>
-                <div class="cartao_bandeira">
-                    <select onchange="ValidarBandeira();" id="cartao" class="cartao">
-                        <option value="credito">Cartão de Crédito</option>
-                        <option value="debito">Cartão de Débito</option>
-                    </select>
-                    <select id="bandeira" class="bandeira">
-                        <option>MasterCard</option>
-                        <option>Elo</option>
-                        <option>Visa</option>
-                    </select>
-                </div>
                 </fieldset>
-            <div class="botoes"> 
-                <a href="cadastro.html" target="_self" class="link">Voltar</a> 
-                <a href="endereco.html" target="_self" class="link4">Continuar</a> 
-            </div>
+                <div class="botoes"> 
+                    <a href="cadastro.html" target="_self" class="link">Voltar</a> 
+                    <input type="submit" value="Continuar" class="link4"> 
+                </div>
+            </form>
         </div>
 </body>
 
