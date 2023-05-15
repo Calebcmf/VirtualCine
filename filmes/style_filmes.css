@@ -73,7 +73,7 @@ body
 {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.356);
-    filter: brightness(110%);
+    filter: brightness(115%);
 }
 .linha
 {
