@@ -22,13 +22,14 @@ body,html
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 5%;
   width: 80%;
+  top: 710px;
   position: fixed;
   bottom: 10px;
 }
 .mensagens_
 {
   margin-top: 95px;
-  height: 580px;
+  height: 550px;
   width: 85%;
   background-color: rgb(0, 3, 24);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
