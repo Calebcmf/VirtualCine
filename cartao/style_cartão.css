@@ -98,6 +98,7 @@ a.link
     color: black;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
 }
 a.link4
 {
@@ -229,6 +230,7 @@ a.link3
   align-content: center;
   justify-items: center;
   justify-content: center;
+  transition: 0.5s;
 }
 .link4:hover
 {

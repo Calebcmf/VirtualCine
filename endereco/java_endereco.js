@@ -21,7 +21,7 @@ else {
 }
 }
 
-function pesquisacep(valor) {
+function pesquisarCep(valor) {
 
 //Nova variável "cep" somente com dígitos.
 var cep = valor.replace(/\D/g, '');

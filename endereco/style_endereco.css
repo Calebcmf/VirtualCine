@@ -162,6 +162,7 @@ a.link3
   align-content: center;
   justify-items: center;
   justify-content: center;
+  transition: 0.5s;
 }
 .link:hover
 {
@@ -187,6 +188,7 @@ a.link3
   align-content: center;
   justify-items: center;
   justify-content: center;
+  transition: 0.5s;
 }
 .link4:hover
 {
