@@ -105,6 +105,7 @@ a.link1
   align-content: center;
   justify-items: center;
   justify-content: center;
+  transition: 0.5s;
 }
 .link:hover
 {
