@@ -1,65 +1,126 @@
 body{
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    overflow: hidden;
-    background-color: rgb(0, 3, 24);
-}
-.fundo{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: top;
+    justify-content:space-around;
+    align-items:center;
+    align-content:center;
+    justify-items:center;
     overflow: hidden;
+    background-color: rgb(2, 19, 51);
 }
 .ladofilmes{
-    width:1400px;
-    height:100vh;
+    padding-top: 30px;
+    width:60%;
+    height: 750px;
     display:flex;
     flex-direction:column;
-    
+    justify-content:space-around;
+    overflow-y: scroll;
+}
+.barra
+{
+    margin-left: 130px;
+    margin-top: 100px;
+    width: 90%;
+    height: 5%;
+    color:white;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    align-content:center;
+    justify-items:center;
+    font-size: 20px;
+}
+.esquerda
+{
+    width: 40%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    align-content:center;
+}
+.tito
+{
+    margin-left: 50px;
+    width:80%;
+    height:10%;
+    color:white;
+    font-size:20px;
+}
+.caixa_larga
+{
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    border-radius: 2px;
+}
+.escrita
+{
+    color: white;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50%;
+}
+.carrossel1
+{
+    height: 250px;
+    width: 90%;
+    background-color:rgb(3, 28, 61);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.123);
+    transition: 1s;
+    display: flex;
+    flex-direction: row;
     justify-content:space-around;
     align-items:center;
     align-content:center;
     justify-items:center;
 }
-.carrossel{
-    width:50%;
-    height:30%;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-}
-.tito{
-    width:900px;
-    height:150x;
-    color:white;
-    font-size:40px;
-}
-.barra{
-    color:white;
-    width:600px;
-    font-size:40px;
-    padding-top: 20px;
-    
-}
-
-.caixa_larga
+.carrossel1:hover
 {
-    width: 98%;
-    height: 20%;
-    font-size: 80%;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    background-color:rgb(4, 33, 70);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.178);
 }
-.escrita
+.filmes
 {
-    color: white;
-    font-size: 120%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 87%;
+    height: 250px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagem_filme
+{
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.178);
+    filter: brightness(90%);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.imagem_filme:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.226);
+    filter: brightness(115%);
+    border-radius: 1px;
+}
+::-webkit-scrollbar /* barra de rolagem */
+{
+    width: 14px;
+    background-color: rgba(0, 2, 17, 0.082);
+    z-index: 1;
+}
+  
+::-webkit-scrollbar-thumb /* meio da barra de rolagem */
+{
+    background-color: #012d47;
+    border-radius: 10px;
+    z-index: 2;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-color:#004974;
 }
