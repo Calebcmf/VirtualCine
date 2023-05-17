@@ -5,7 +5,7 @@ body
 {
     height: 300vh;
     width: 100%;
-    background-color:rgb(0, 2, 19);
+    background-color:rgb(2, 22, 49);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,13 +19,14 @@ body
 {
     height: 340px;
     width: 100%;
-    background-color: #01375793;
-    box-shadow: -10px 10px 10px 10px  rgba(0, 0, 0, 0.589);
+    background-color:rgb(3, 28, 61);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.123);
     transition: 1s;
 }
 .carrossel1:hover
 {
-    background-color: #00406493;
+    background-color:rgb(4, 33, 70);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.178);
 }
 .carrossel1:hover .linha
 {
@@ -65,15 +66,17 @@ body
 .filme_imagem
 {
     margin-top: 15px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.178);
     filter: brightness(90%);
     transition: 0.5s;
+    border-radius: 10px;
 }
 .filme_imagem:hover
 {
     transform: scale(1.05);
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.226);
     filter: brightness(115%);
+    border-radius: 1px;
 }
 .linha
 {
@@ -84,4 +87,21 @@ body
     border-radius: 1px;
     margin-top: 5px;
     transition: 0.5s;
+}
+::-webkit-scrollbar /* barra de rolagem */
+{
+    width: 14px;
+    background-color: rgba(0, 2, 17, 0.082);
+    z-index: 1;
+}
+  
+::-webkit-scrollbar-thumb /* meio da barra de rolagem */
+{
+    background-color: #012d47;
+    border-radius: 10px;
+    z-index: 2;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-color:#004974;
 }
