@@ -10,17 +10,22 @@ body{
     align-content:center;
     justify-items:center;
     overflow: hidden;
-    background-color: rgb(2, 19, 51);
+    background-color:rgb(10, 11, 14);
 }
 .ladofilmes
 {
-    margin-top: 60px;
-    width:60%;
-    height: 600px;
+    width: 60%;
+    height: auto;   
+}
+.carrosels
+{
+    margin-top: 40px;
+    width:100%;
+    height: 650px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    overflow-y: scroll;    
+    justify-content: space-between;
+    overflow-y: scroll; 
 }
 .barra
 {
@@ -72,7 +77,7 @@ body{
 {
     height: 250px;
     width: 90%;
-    background-color:rgb(3, 28, 61);
+    background-color:rgb(18, 20, 26);
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.123);
     transition: 1s;
     display: flex;
@@ -84,7 +89,7 @@ body{
 }
 .carrossel1:hover
 {
-    background-color:rgb(4, 33, 70);
+    background-color:rgb(22, 24, 31);
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.178);
 }
 .filmes

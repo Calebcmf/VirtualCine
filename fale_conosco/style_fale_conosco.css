@@ -2,7 +2,7 @@ body,html
 {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(9, 10, 36);
+  background-color:rgb(18, 20, 26);
   color: white;
   font-size: 20px;
   display: flex;
@@ -11,10 +11,13 @@ body,html
   align-content: center;
   justify-items: center;
   justify-content: center;
-  justify-content: space-around;
   overflow:hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: linear-gradient(to top, rgba(6, 31, 68, 0.582), rgba(255,0,0,0));
+}
+.resposta
+{
+  color: white;
+  font-size: 22px;
 }
 .chat
 {
@@ -22,9 +25,8 @@ body,html
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 5%;
   width: 80%;
-  top: 710px;
-  left: 200px;
-  position: fixed;
+  left: 20px;
+  position: relative;
   bottom: 10px;
 }
 .mensagens_
@@ -32,9 +34,8 @@ body,html
   margin-top: 95px;
   height: 550px;
   width: 80%;
-  background-color: rgba(36, 131, 185, 0.158);
-  backdrop-filter: blur(50px);
-  color: black;
+  background-color:#191e24c5;
+  color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   overflow-y: scroll;
