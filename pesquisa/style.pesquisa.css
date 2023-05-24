@@ -29,8 +29,8 @@ body{
 }
 .barra
 {
-    margin-left: 130px;
-    margin-top: 100px;
+    margin-left: 160px;
+    margin-top: 80px;
     width: 90%;
     height: 5%;
     color:white;
@@ -64,7 +64,9 @@ body{
     height: 100%;
     font-size: 15px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
-    border-radius: 2px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
 }
 .escrita
 {

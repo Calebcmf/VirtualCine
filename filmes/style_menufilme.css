@@ -7,13 +7,13 @@
 }
 
 .navigation{
-  z-index: 100;
+  z-index: 99;
   position: absolute;
   left: 0px;
   height: 100%;
   background: rgb(10, 11, 14);
   width: 70px;
-  box-shadow: 8px 0 0 #288ff0;
+  box-shadow: 8px 0 0 #0d65b8;
   border-left: 10px solid rgb(10, 11, 14);
   overflow-x: hidden;
   transition: 0.5s;
@@ -67,7 +67,7 @@
   white-space: nowrap;
 }
 .navigation ul li.active{
-  background: #288ff0;
+  background: #0d65b8;
 }
 .navigation ul li.active a::before{
   content: '';
@@ -78,7 +78,7 @@
   height: 30px;
   background: rgb(10, 11, 14);
   border-radius: 50px;
-  box-shadow:15px 15px 0 #288ff0;
+  box-shadow:15px 15px 0 #0d65b8;
 }
 .navigation ul li.active a::after{
   content: '';
@@ -89,9 +89,5 @@
   height: 30px;
   background: rgb(10, 11, 14);
   border-radius: 50px;
-  box-shadow:15px -15px #288ff0;
-}
-.resposta
-{
-  background-color: #288ff0;
+  box-shadow:15px -15px #0d65b8;
 }
