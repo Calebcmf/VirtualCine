@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_filmes.css" />
+    <link rel="stylesheet" href="../filmes/style_menufilme.css">
+    <script src="../filmes/java_menufilmes.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>Filmes</title>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <img src="../imagens/vc.png" width="80%">
+            <br><br>
+            <li class="list active">
+                <a href="#principal">
+                    <span class="icon"><ion-icon name="home"></ion-icon></span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="search-outline"></ion-icon></ion-icon></span>
+                    <span class="title">Pesquisa</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="../usuario/usuario.html">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <span class="title">Conta</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="../fale_conosco/fale_conosco.html">
+                    <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                    <span class="title">Ajuda</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+                    <span class="title">Sair</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">Django é um escravo, comprado pelo caçador de recompensas alemão Dr. King Schultz, para auxiliá-lo em uma missão. 
+                    A dupla acaba fazendo amizade e, após resolver os problemas do caçador, partem em busca por Broomhilda, esposa de Django, 
+                    vendida no tráfico de escravos.</p>
+                <button class="featured-button">Assistir</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MARVEL</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/iron2.jpg" alt="">
+                            <span class="movie-list-item-title">Homem de Ferro</span>
+                            <p class="movie-list-item-desc">Tony Stark é um bilionário que realiza testes, mas é sequestrado 
+                                e o forçam a construir uma arma.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Avergers.jpg" alt="">
+                            <span class="movie-list-item-title">Vingadores</span>
+                            <p class="movie-list-item-desc">A equipe de super heróis e reunida por Nick Fury. Formado por 
+                                Homem de Ferro, Capitão América, Thor e Hulk, tem como objetivo deter Loki.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c22.jpg" alt="">
+                            <span class="movie-list-item-title">Capitão America</span>
+                            <p class="movie-list-item-desc">Após ser considerado inapto ao serviço militar, 
+                                Steve Rogers voluntaria-se para o projeto secreto Super Soldado</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Thor_poster.jpg" alt="">
+                            <span class="movie-list-item-title">Thor</span>
+                            <p class="movie-list-item-desc">Thor, o príncipe herdeiro de Asgard,é banido à Terra e despojado de 
+                                seus poderes depois que ele reinicia uma guerra antiga.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/hulk.jpg" alt="">
+                            <span class="movie-list-item-title">Hulk</span>
+                            <p class="movie-list-item-desc">Hulk explora Bruce Banner, que em um acidente, 
+                                torna ele capaz de se transformar em um monstro de pele verde sempre que fica com raiva</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/spider.jpg" alt="">
+                            <span class="movie-list-item-title">Spider-Man</span>
+                            <p class="movie-list-item-desc">Depois de ser picado por uma aranha modificada, Peter Parker ganha 
+                                poderes e as habilidades de aranha para se agarrar.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/GoG.jpg" alt="">
+                            <span class="movie-list-item-title">Guardiões da Galaxia</span>
+                            <p class="movie-list-item-desc">Peter Quill,é alvo de um vilão depois que rouba uma esfera,ao descobrir seus poderes
+                                tem que encontrar uma maneira de salvar a galaxia.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">DISNEY</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/lion.jfif" alt="">
+                            <span class="movie-list-item-title">O Rei Leão</span>
+                            <p class="movie-list-item-desc">O jovem Simba,sente-se culpado pelo assassinato de seu pai,Mufasa, 
+                                abandona o reino sem saber que o incidente foi planejado pelo tio.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/peter-pan-224.jpg" alt="">
+                            <span class="movie-list-item-title">Peter Pan</span>
+                            <p class="movie-list-item-desc">Peter Pan vive na Terra do Nunca.E tem uma fada que é sua melhor amiga 
+                                e é líder dos Meninos Perdidos.A maioria dos dias em aventuras e lutando contra o C.Gancho.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/PdCa1212.jpg" alt="">
+                            <span class="movie-list-item-title">Piratas do Caribe</span>
+                            <p class="movie-list-item-desc">Jack Sparrow, vira de cabeça depois que Capitão Barbosa rouba seu navio
+                                e ataca Porto Royal.Para recuperar o Pérola Negra, Jack junta forças com Willl Turner.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/101.jpg" alt="">
+                            <span class="movie-list-item-title">101 dálmatas</span>
+                            <p class="movie-list-item-desc">Anita e Roger possuem um casal de dálmatas.Quando a fêmea acaba de dar a luz a 15 
+                                filhotes,Cruela Cruel,uma antiga amiga,rica e viciada em roupas de pele,se propõe a comprá-los.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Mal.jpg" alt="">
+                            <span class="movie-list-item-title">Malevola</span>
+                            <p class="movie-list-item-desc">Malévola leva uma vida pacífica, até o dia em que um 
+                                exército invasor de humanos ameaça a harmonia da região. Um acontecimento que transformar seu coração, em pedra.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/A4545.jpg" alt="">
+                            <span class="movie-list-item-title">Avatar</span>
+                            <p class="movie-list-item-desc">Jake Sully ficou paraplégico na Terra.Quando seu irmão morre,ele é selecionado 
+                                para substituí-lo no programa Avatar e viaja a Pandora,onde encontra diversas formas de vida.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dumbo.jpg" alt="">
+                            <span class="movie-list-item-title">Dumbo</span>
+                            <p class="movie-list-item-desc">Um jovem elefante é ridicularizado no circo,por causa de suas enormes orelhas.
+                                 Ele e seu amigo rato vão encontrar um uso fantástico para o que parecia ser um problema.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/star21.jpg');">
+                <img class="featured-title" src="img/f-t-3-removebg-preview.png" alt="">
+                <p class="featured-desc">A história do jovem fazendeiro Luke Skywalker, que, após adquirir dois droids, 
+                    envolve-se na Guerra Civil Galáctica entre o tirano Império Galáctico e a Aliança Rebelde, 
+                    ao lado do contrabandista Han Solo.</p>
+                <button class="featured-button">Assistir</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">DC</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/batman2.jpg" alt="">
+                            <span class="movie-list-item-title">Batman</span>
+                            <p class="movie-list-item-desc">Além de vigilante, Batman usa um sinal para avisar os criminosos que aproxima.
+                                Batman conta sua história,esperando receber alguma subjetividade e atividade mental.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/superM.jpg" alt="">
+                            <span class="movie-list-item-title">Super-Man</span>
+                            <p class="movie-list-item-desc">Superman, inclui sua infância como Kal-El e seus anos de juventude em Smallville. 
+                                Como Clark Kent,ele adota um comportamento humilde em Metrópolis e um romance com Lois.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">Arthur Curry foi criado como um meio Atlante, meio Homem. 
+                                Ele nasceu para ser um grande herói atlante que luta por sua cidade, Atlantis, a fim de trazer a paz entre a 
+                                Atlântida e o Mundo.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/WW.jpg" alt="">
+                            <span class="movie-list-item-title">Mulher Maravilha</span>
+                            <p class="movie-list-item-desc">Princesa Diana,cresce em Themyscira.O piloto Steve Trevor cai no mar e é 
+                                resgatado por Diana, ele fala sobre a 1ºGuerra, então ela deseja por um fim.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/joker22.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Um comediante stand-up pobre e doente mental, esquecido pela sociedade, 
+                                cuja história faz com que ele se torne um criminoso.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/656.jpg" alt="">
+                            <span class="movie-list-item-title">Shazam 2</span>
+                            <p class="movie-list-item-desc">Tendo descoberto seus poderes e se juntado a uma família,Billy Batson 
+                                lida com as questões do amadurecimento e sua vida de super-herói.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ss13.jpg" alt="">
+                            <span class="movie-list-item-title">Esquadão Suicida</span>
+                            <p class="movie-list-item-desc">O Esquadrão Suicida retrata uma equipe de super-vilões em uma 
+                                missão suicida em troca de reduzir sua pena na prisão.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">RECOMENDADOS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/jw77.jpg" alt="">
+                            <span class="movie-list-item-title">Jonh Wick</span>
+                            <p class="movie-list-item-desc">A história se concentra em John Wick, um assassino aposentado que busca 
+                                vingança pelo roubo de seu carro e a morte de seu cachorro, um presente de sua esposa falecida</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ff12.jpg" alt="">
+                            <span class="movie-list-item-title">Fast and Furios</span>
+                            <p class="movie-list-item-desc">O policial disfarçado Brian O'Conner,investiga a gangue de Dominic Toretto, a 
+                                qual,usando carros, vem praticando roubos a caminhões transportando equipamentos caros.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/rocky.jpg" alt="">
+                            <span class="movie-list-item-title">Rocky</span>
+                            <p class="movie-list-item-desc">Rocky Balboa, um pugilista de classe trabalhadora, sem instrução, 
+                                mas bondoso, que trabalha como cobrador de dívidas de um agiota nas favelas da Filadélfia.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/tg5.jfif" alt="">
+                            <span class="movie-list-item-title">Top Gun</span>
+                            <p class="movie-list-item-desc">Pete “Maverick” Mitchell é piloto da marinha americana e forma dupla com Nick “Goose” Bradshaw
+                                na equipe do porta-aviões USS. Suas vidas mudam após uma missão mal sucedida.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/friday13.jfif" alt="">
+                            <span class="movie-list-item-title">Sexta-feira 13</span>
+                            <p class="movie-list-item-desc">1958, um casal adolescente foge de um acampamento,mas são perseguidos por um assassino e mortos. 
+                                Em 1979,o acampamento reabre o local, apesar do trauma.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Interestelar 01.jpg" alt="">
+                            <span class="movie-list-item-title">Interestelar</span>
+                            <p class="movie-list-item-desc">Exploradores usam um “buraco-de-minhoca” para superar as limitações de uma viagem espacial 
+                                e a travessar as estrelas.Em busca de um novo planeta que possa ser habitável.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/hollywood.jpg" alt="">
+                            <span class="movie-list-item-title">Era uma vez em hollywood</span>
+                            <p class="movie-list-item-desc">Rick Dalton,um ator de uma década de trabalho sente que a sua carreira está próxima do fim. 
+                                Ao lado do seu dublê, Cliff Booth,ele está decidido a fazer nome em Hollywood.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">PIXAR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Toy_Story_1995.jpg" alt="">
+                            <span class="movie-list-item-title">Toy Story</span>
+                            <p class="movie-list-item-desc">Mundo onde brinquedos têm vida e fingem ser inanimados,com 
+                                o enredo centrando na relação entre Woody, um boneco caubói,e Buzz Lightyear,um brinquedo de temática espacial.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/vI.jpg" alt="">
+                            <span class="movie-list-item-title">Vida de Inseto</span>
+                            <p class="movie-list-item-desc">Flink, uma formiga-operária, 
+                                parte em busca de insetos que possam ajudar a salvar o formigueiro. Quando retorna,traz 
+                                diversos e minúsculos animais,além de um plano arriscado.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/incriveis.jpg" alt="">
+                            <span class="movie-list-item-title">Os Incríveis</span>
+                            <p class="movie-list-item-desc">Roberto Pêra já foi o maior herói,combatendo o mal. 
+                                Porém, após salvar um homem,ele é processado e condenado,o que faz com que a opinião se volte contra os super-heróis.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/nemo.jpg" alt="">
+                            <span class="movie-list-item-title">Procurando Nemo</span>
+                            <p class="movie-list-item-desc">Nemo é um pequeno peixe-palhaço,que repentinamente é sequestrado do coral onde 
+                                vive por um mergulhador e passa a viver em um aquário.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/Up_pôster.jpg" alt="">
+                            <span class="movie-list-item-title">UP</span>
+                            <p class="movie-list-item-desc"> Carl Fredricksen, um viúvo solitário de 78 anos, 
+                                que embarca numa aventura para realizar um sonho de juventude que mantinha com a mulher.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dm.jfif" alt="">
+                            <span class="movie-list-item-title">DivertidaMente</span>
+                            <p class="movie-list-item-desc">Riley, que se vê obrigada a mudar de cidade com os pais. Acompanhamos o seu processo de adaptação na vida nova e suas 
+                                cinco emoções regem.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/M S.A..jfif" alt="">
+                            <span class="movie-list-item-title">Monstro S.A.</span>
+                            <p class="movie-list-item-desc">Monstros S.A.é uma fábrica de sustos.A fábrica levam os
+                                monstros para os quartos das crianças, onde eles poderão dar sustos e gerar energia necessária para sobreviver.</p>
+                            <button class="movie-list-item-button">Assistir</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
