@@ -2,7 +2,7 @@ body,html
 {
   height: 100vh;
   width: 100vw;
-  background-color:rgb(18, 20, 26);
+  background-color: #0d131a;
   color: white;
   font-size: 20px;
   display: flex;
@@ -34,7 +34,7 @@ body,html
   margin-top: 95px;
   height: 550px;
   width: 80%;
-  background-color:#191e24c5;
+  background-color: #111a25;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -73,6 +73,9 @@ button.botao_enviar
   height: 95%;
   width: 10%;
   border-radius: 20px;
+  border: none;
+  background-color: #0d65b8;
+  color: white;
 }
 .barra
 {
