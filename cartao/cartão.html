@@ -19,25 +19,25 @@
         <div class="meio">  
             <form class="formulario_cartao" action="php_inserircartão.php" method="post">
                 <fieldset>
-                    <legend>FORMAS DE PAGAMENTO</legend>
-                    Titular Do Cartão:
-                    <input type="text" class="caixa_larga2" name="titular" placeholder="Nome do Titular" id="nome">
+                    <legend>PAGAMENTO</legend>
+                    <div class="texto">Titular Do Cartão:</div>
+                    <input type="text" class="caixa_larga" name="titular" placeholder="Nome do Titular" id="nome">
                     <br> <br>
-                    Numero do Cartão:
-                    <input type="text" class="caixa_larga2" id="num_cartao" name="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
+                    <div class="texto">Numero do Cartão:</div>
+                    <input type="text" class="caixa_larga" id="num_cartao" name="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
                     <br> <br>
                     <div class="data_valid">
                         <div class="cvv">
                             CVV: <br>
-                            <input type="number" class="caixa_larga1" name="cvv" placeholder="- - -" id="cvv" onkeyup="ValidacaoCVV();">
+                            <input type="number" class="caixa_larga" name="cvv" placeholder="- - -" id="cvv" onkeyup="ValidacaoCVV();">
                         </div>
                         <div class="valid">
                             Validade: <br>
-                            <input type="text" class="caixa_larga1" name="valid" placeholder="00/00" id="valid">
+                            <input type="text" class="caixa_larga" name="valid" placeholder="00/00" id="valid">
                         </div>
                     </div>
                     <br>
-                    Tipo do Cartão: <br>
+                    <div class="texto">Tipo do Cartão:</div>
                     <div class="cartao_bandeira">
                         <select onchange="ValidarBandeira();" id="cartao" class="cartao">
                             <option value="credito">Cartão de Crédito</option>
