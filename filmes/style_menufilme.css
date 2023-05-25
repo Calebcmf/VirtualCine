@@ -11,10 +11,10 @@
   position: absolute;
   left: 0px;
   height: 100%;
-  background: rgb(10, 11, 14);
+  background: #010913;
   width: 70px;
   box-shadow: 8px 0 0 #0d65b8;
-  border-left: 10px solid rgb(10, 11, 14);
+  border-left: 10px solid #010913;
   overflow-x: hidden;
   transition: 0.5s;
   position: fixed;
@@ -76,7 +76,7 @@
   right: 0;
   width: 30px;
   height: 30px;
-  background: rgb(10, 11, 14);
+  background: #010913;
   border-radius: 50px;
   box-shadow:15px 15px 0 #0d65b8;
 }
@@ -87,7 +87,7 @@
   right: 0;
   width: 30px;
   height: 30px;
-  background: rgb(10, 11, 14);
+  background: #010913;
   border-radius: 50px;
   box-shadow:15px -15px #0d65b8;
 }
