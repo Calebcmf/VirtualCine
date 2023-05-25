@@ -20,16 +20,16 @@
             <form class="formulario" action="php_inserircadastro.php" method="post">
                 <fieldset>
                     <legend>CADASTRO</legend>
-                    Nome Completo:
-                    <input type="text" class="caixa_larga" name="nome" id="nome">
+                    <div class="texto"> Nome Completo: </div>
+                    <input type="text" class="caixa_larga1" name="nome" id="nome">
                     <br> <br>
-                    CPF:
-                    <input type="text" class="caixa_larga1" name="cpf" id="cpf" onkeyup="ValidacaoCPF();">
+                    <div class="texto">CPF:</div>
+                    <input type="text" class="caixa_larga1" placeholder="000.000.000-00" name="cpf" id="cpf" onkeyup="ValidacaoCPF();">
                     <br> <br>
-                    E-mail:
-                    <input type="email" class="caixa_larga1" name="email" id="email" onkeyup="ValidacaoEmail();">
+                    <div class="texto">E-mail:</div>
+                    <input type="email" class="caixa_larga1" placeholder="example@example.com" name="email" id="email" onkeyup="ValidacaoEmail();">
                     <br> <br>
-                    Senha:
+                    <div class="texto">Senha:</div>
                     <input type="password" class="caixa_larga1" name="senha" id="senha" onkeyup="ValidacaoSenha();">
                     <div id="erro" class="aviso" style="display:none;">A senha deve conter pelo menos uma letra maiúscula, um número e um símbolo</div>
                 </fieldset>

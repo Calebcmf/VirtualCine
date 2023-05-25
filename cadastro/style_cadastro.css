@@ -10,7 +10,7 @@ body,html
     justify-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: rgb(0, 3, 24);
+    background-color: #0d131a;
  }
 .fundo
 {
@@ -22,14 +22,12 @@ body,html
     align-content: center;
     justify-items: center;
     justify-content: center;
-    background-image: linear-gradient(to top, rgba(5, 36, 83, 0.774), rgba(255,0,0,0));
  }
 .meio
 {
     width: 30%;
-    height: 75%;
-    background-color: rgba(255, 255, 255, 0.089);
-    backdrop-filter: blur(5px);
+    height: 77%;
+    background-color: #111a25;
     box-shadow: 1px 1px 100px 3px rgba(0, 0, 0, 0.253);
     display: flex;
     flex-direction: column;
@@ -38,20 +36,19 @@ body,html
     justify-items: center;
     justify-content: center;
     justify-content: space-around;
-    border-radius: 5px;
+    border-radius: 20px;
     animation: slideInUp 1.5s;
     transition: 0.5s;
+    text-indent: 20px;
 }
 .meio:hover
 {
-    background-color: rgba(255, 255, 255, 0.116);
-    transition: 0.5s;
-    box-shadow: 1px 1px 100px 3px rgba(0, 0, 0, 0.308);
+    background-color: #141e2c;
 }
 .botoes
 {
-    width: 90%;
-    height: 12%;
+    width: 85%;
+    height: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,30 +56,28 @@ body,html
     justify-items: center;
     justify-content: center;
     justify-content: space-around;
-    border-radius: 30%;
+    border-radius: 30px;
 }
 fieldset
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
     width: 80%;
-    height: 70%;
+    height: 60%;
     font-size: 25px;
-}
-.caixa_larga
-{
-    width: 98%;
-    height: 11%;
-    font-size: 80%;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    border: none;
+    text-indent: 10px;
 }
 .caixa_larga1
 {
-    width: 98%;
-    height: 11%;
+    width: 95%;
+    height: 45px;
     font-size: 80%;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
     outline: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    border: none;
 }
 .escrita
 {
@@ -90,6 +85,8 @@ fieldset
     font-size: 120%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 87%;
+    position: relative;
+    top: 20px;
 }
 .barra
 {
@@ -109,7 +106,7 @@ fieldset
 a.link2
 {
     text-decoration: none;
-    color: rgb(35, 149, 255);
+    color:#0d65b8;
     cursor: pointer;
 }
 a.link3
@@ -130,7 +127,7 @@ a
   cursor: pointer;
   width: 45%;
   height: 90%;
-  border-radius: 5px;
+  border-radius: 100px;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
@@ -142,6 +139,7 @@ a
   justify-items: center;
   justify-content: center;
   transition: 0.5s;
+  text-indent: -1px;
 }
 .link:hover
 {
@@ -156,11 +154,12 @@ a
   cursor: pointer;
   width: 45%;
   height: 90%;
-  border-radius: 5px;
+  border-radius: 100px;
+  border: none;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  background-color:#0069a7;
+  background-color:#0d65b8;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -171,24 +170,19 @@ a
 }
 .link4:hover
 {
-  background-color:#008ddf;
+  background-color:#1a6fbe;
+  border: 1px solid rgba(255, 255, 255, 0.699);
   color: white;
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
 }
 .errado
 {
-    border-color: rgb(255, 53, 53);
-    border-radius: 1px;
-    border-style: solid;
-    background-color: rgb(255, 232, 232);
+    background-color: rgb(255, 200, 200);
 }
 .certo
 {
-    border-color: rgb(67, 255, 67);
-    border-radius: 1px;
-    border-style: solid;
-    background-color: rgb(237, 255, 237);
+    background-color: rgb(218, 247, 252);
 }
 .aviso
 {

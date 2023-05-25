@@ -1,19 +1,18 @@
-body,html
-{
+body,
+html {
   padding: 0px;
   margin: 0px;
   width: 100%;
   height: 200vw;
-  background-color: rgb(0, 3, 24);
+  background-color: #030b16;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
-  background-image: linear-gradient(to top, rgba(5, 36, 83, 0.774), rgba(255,0,0,0) 60%);
 }
-.esquerda
-{
+
+.esquerda {
   width: 60%;
   height: 100vh;
   display: flex;
@@ -23,8 +22,8 @@ body,html
   justify-items: center;
   justify-content: center;
 }
-.botton 
-{
+
+.botton {
   background-color: #2e76a000;
   width: 70%;
   height: 20%;
@@ -34,31 +33,30 @@ body,html
   align-content: center;
   justify-content: space-around;
 }
-.fundo
-{
+
+.fundo {
   height: 100vh;
   width: 100vw;
-  background-color: rgb(0, 3, 24);
   display: flex;
   flex-direction: row;
 }
-.titulo
-{
+
+.titulo {
   color: white;
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.dt
-{
+
+.dt {
   text-decoration: none;
   cursor: pointer;
   width: 45%;
   height: 50%;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  background-color:#0069a7;
+  background-color: #0d65b8;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -68,41 +66,41 @@ body,html
   animation: slideInUp 1.5s;
   transition: 0.5s;
 }
-.dt:hover
-{
-  background-color: #008ddf;
+
+.dt:hover {
+  background-color:#1a6fbe;
   color: white;
   cursor: pointer;
 }
-a.link
-{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    font-size: 140%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+a.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 140%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-a
-{
-    cursor: pointer;
+
+a {
+  cursor: pointer;
 }
-.pacotes
-{
-    width: 95%;
-    height: 26%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-    justify-content: space-around;
+
+.pacotes {
+  width: 95%;
+  height: 26%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
 }
-.meio
-{
+
+.meio {
   width: 400px;
   height: 550px;
-  background-color:rgba(255, 255, 255, 0.089);
+  background-color: #111a25;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,19 +108,19 @@ a
   justify-items: center;
   justify-content: center;
   justify-content: space-around;
-  border-radius: 5px;
+  border-radius: 20px;
   animation: slideInUp 1.5s;
   backdrop-filter: blur(100px);
   box-shadow: 1px 1px 1px 1px 10px rgba(0, 0, 0, 0.39);
   transition: 0.5s;
 }
-.meio:hover
-{
+
+.meio:hover {
   box-shadow: 2px 2px 2px 2px 10px rgba(0, 0, 0, 0.39);
-  background-color:rgba(255, 255, 255, 0.116);
+  background-color: #141e2c;
 }
-.botoes
-{
+
+.botoes {
   width: 100%;
   height: 20%;
   display: flex;
@@ -134,17 +132,17 @@ a
   justify-content: space-around;
   border-radius: 30%;
 }
-.link2
-{
+
+.link2 {
   text-decoration: none;
   cursor: pointer;
   width: 70%;
   height: 60%;
-  border-radius: 5px;
+  border-radius: 40px;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  background-color:#0069a7;
+  background-color:#0d65b8;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -153,22 +151,22 @@ a
   justify-content: center;
   transition: 0.5s;
 }
-.link2:hover
-{
-  background-color: #008ddf;
+
+.link2:hover {
+  background-color:#1a6fbe;
   color: white;
   cursor: pointer;
   transition: 0.5s;
 }
-.escrita
-{
+
+.escrita {
   color: white;
   font-size: 120%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 87%;
 }
-.texto
-{
+
+.texto {
   font-size: 150%;
   width: 100%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -182,8 +180,8 @@ a
   margin: 10%;
   text-align: center;
 }
-.texto_imagem
-{
+
+.texto_imagem {
   width: 100%;
   height: 40%;
   display: flex;
@@ -193,17 +191,17 @@ a
   justify-items: center;
   justify-content: center;
 }
-.preço
-{
+
+.preço {
   color: #008ddf;
   font-size: 250%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.parceria
-{
+
+.parceria {
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color:rgba(255, 255, 255, 0.089);
+  background-color: #111a25;
   width: 70%;
   padding-left: 70px;
   padding-top: 10px;
@@ -215,36 +213,41 @@ a
   box-shadow: 1px 1px 1px 1px 10px rgba(0, 0, 0, 0.39);
   transition: 0.5s;
 }
-.parceria:hover
-{
+
+.parceria:hover {
   box-shadow: 2px 2px 2px 2px 10px rgba(0, 0, 0, 0.39);
-  background-color:rgba(255, 255, 255, 0.116);
+  background-color: #131c27;
 }
- ::-webkit-scrollbar /* barra de rolagem */
-{
-    width: 14px;
-    background-color: rgba(0, 2, 17, 0.082);
-    z-index: 1;
+
+::-webkit-scrollbar
+
+/* barra de rolagem */
+  {
+  width: 14px;
+  background-color: rgba(0, 2, 17, 0.082);
+  z-index: 1;
 }
-  
-::-webkit-scrollbar-thumb /* meio da barra de rolagem */
-{
-    background-color: #001d2e;
-    border-radius: 10px;
-    z-index: 2;
+
+::-webkit-scrollbar-thumb
+
+/* meio da barra de rolagem */
+  {
+  background-color: #001d2e;
+  border-radius: 10px;
+  z-index: 2;
 }
-::-webkit-scrollbar-thumb:hover
-{
-    background-color:#004974;
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #004974;
 }
-.parceria_imagem
-{
+
+.parceria_imagem {
   left: 150px;
   top: 160px;
   position: absolute;
 }
-.imagem_filme
-{
+
+.imagem_filme {
   top: 50px;
   right: 0px;
   position: absolute;

@@ -7,7 +7,7 @@ nav
     display: flex;
     height: 80px;
     width: 100%;
-    background-color: rgb(0, 2, 19);
+    background-color: #030a14;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -21,7 +21,7 @@ nav
 }
 nav:hover
 {
-    background-color:#005a8f;
+    background-color:#0d65b8;
 }
 nav .logo
 {
