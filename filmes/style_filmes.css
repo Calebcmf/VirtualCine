@@ -23,16 +23,16 @@ body {
   margin-left: 50px;
 }
 
-.featured-content {
+.principal {
   height: 50vh;
   padding: 50px;
 }
 
-.featured-title {
+.principal_titulo {
   width: 200px;
 }
 
-.featured-desc {
+.principal_descricao {
   width: 500px;
   color: white;
   margin: 30px 0;
@@ -61,7 +61,7 @@ body {
   transition: all 1s ease-in-out;
 }
 
-.movie-list-item {
+.conjunto_filmes {
   margin-right: 30px;
   position: relative;
   display: flex;
@@ -72,15 +72,18 @@ body {
   justify-content: space-evenly;
 }
 
-.movie-list-item:hover .imagem_filme {
+.conjunto_filmes:hover .imagem_filme {
   transform: scale(1.2);
-  margin: 0 30px;
+  margin: 0 10px;
   opacity: 0.5;
 }
-
-.movie-list-item:hover .nome_filme,
-.movie-list-item:hover .movie-list-item-desc,
-.movie-list-item:hover .botao_assistir {
+a
+{
+  text-decoration: none;
+}
+.conjunto_filmes:hover .nome_filme,
+.conjunto_filmes:hover .descricao_filme,
+.conjunto_filmes:hover .botao_assistir {
   opacity: 1;
 }
 
@@ -105,7 +108,7 @@ body {
   transition: 1s all ease-in-out;
 }
 
-.movie-list-item-desc {
+.descricao_filme {
   background-color:  #010811b2;
   padding: 10px;
   font-size: 14px;
@@ -130,16 +133,6 @@ body {
   top: 200px;
   opacity: 0;
   transition: 1s all ease-in-out;
-}
-
-.arrow {
-  font-size: 120px;
-  position: absolute;
-  top: 90px;
-  right: 0;
-  color: rgb(10, 10, 10);
-  opacity: 0.5;
-  cursor: pointer;
 }
 
 ::-webkit-scrollbar
