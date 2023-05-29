@@ -1,6 +1,6 @@
 html,
 body {
-    height: 380vh;
+    height: 350vh;
     width: 100%;
     background-color: #010811;
     display: flex;
@@ -48,12 +48,12 @@ body {
   font-weight: bold;
 }
 
-.movie-list-container {
+.carrossel_container {
   padding: 0 20px;
   margin-top: 30px;
 }
 
-.movie-list {
+.carrossel {
   display: flex;
   align-items: center;
   height: 300px;
@@ -72,33 +72,35 @@ body {
   justify-content: space-evenly;
 }
 
-.movie-list-item:hover .movie-list-item-img {
+.movie-list-item:hover .imagem_filme {
   transform: scale(1.2);
   margin: 0 30px;
   opacity: 0.5;
 }
 
-.movie-list-item:hover .movie-list-item-title,
+.movie-list-item:hover .nome_filme,
 .movie-list-item:hover .movie-list-item-desc,
-.movie-list-item:hover .movie-list-item-button {
+.movie-list-item:hover .botao_assistir {
   opacity: 1;
 }
 
-.movie-list-item-img {
+.imagem_filme {
   transition: all 1s ease-in-out;
-  width: 280px;
+  width: 270px;
   height: 240px;
   object-fit: cover;
   border-radius: 20px;
 }
 
-.movie-list-item-title {
+.nome_filme {
   background-color: #01081191;
   padding: 0 10px;
   font-size: 30px;
   font-weight: bold;
   position: absolute;
-  width: 270px;
+  width: 250px;
+  top: 20px;
+  left: 30px;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
@@ -108,12 +110,14 @@ body {
   padding: 10px;
   font-size: 14px;
   position: absolute;
-  width: 270px;
+  width: 250px;
+  left: 30px;
+  top: 90px;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
 
-.movie-list-item-button {
+.botao_assistir {
   padding: 10px;
   background-color: #0d65b8;
   color: white;
@@ -122,7 +126,8 @@ body {
   border: none;
   cursor: pointer;
   position: absolute;
-  bottom: 20px;
+  left: 30px;
+  top: 200px;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
@@ -137,42 +142,6 @@ body {
   cursor: pointer;
 }
 
-.container.active {
-  background-color: black;
-}
-
-.movie-list-title.active {
-  color: black;
-}
-
-.navbar-container.active {
-  background-color: white;
-
-  color: wheat;
-}
-
-.sidebar.active{
-    background-color: white;
-}
-
-.left-menu-icon.active{
-    color: black;
-}
-
-.toggle.active{
-    background-color: black;
-}
-
-.toggle-ball.active{
-    background-color: black;
-    transform: translateX(-20px);
-}
-
-@media only screen and (max-width: 940px){
-    .menu-container{
-        display: none;
-    }
-}
 ::-webkit-scrollbar
 
 /* barra de rolagem */
