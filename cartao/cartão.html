@@ -22,10 +22,10 @@
                     <legend>PAGAMENTO</legend>
                     <div class="texto">Titular Do Cartão:</div>
                     <input type="text" class="caixa_larga" name="titular" placeholder="Nome do Titular" id="nome">
-                    <br> <br>
+                    <br>
                     <div class="texto">Numero do Cartão:</div>
                     <input type="text" class="caixa_larga" id="num_cartao" name="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
-                    <br> <br>
+                    <br>
                     <div class="data_valid">
                         <div class="cvv">
                             CVV: <br>
@@ -36,7 +36,7 @@
                             <input type="text" class="caixa_larga" name="valid" placeholder="00/00" id="valid">
                         </div>
                     </div>
-                    <br>
+                
                     <div class="texto">Tipo do Cartão:</div>
                     <div class="cartao_bandeira">
                         <select onchange="ValidarBandeira();" id="cartao" class="cartao">
@@ -55,6 +55,7 @@
                     <input type="submit" value="Continuar" class="link4"> 
                 </div>
             </form>
+            <br>
         </div>
 </body>
 
