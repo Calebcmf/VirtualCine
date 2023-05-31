@@ -46,6 +46,17 @@ html {
     background-color: #141e2c;
 }
 
+.texto {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
+}
+
 .botoes {
     width: 85%;
     height: 70px;
@@ -211,6 +222,14 @@ a {
     justify-items: center;
     justify-content: center;
     justify-content: space-around;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
 }
 
 .cartao {
@@ -262,6 +281,14 @@ a {
     justify-content: space-around;
     width: 45%;
     height: 70px;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
 }
 
 .cvv {
@@ -272,4 +299,12 @@ a {
     justify-content: space-around;
     width: 48%;
     height: 70px;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
 }
