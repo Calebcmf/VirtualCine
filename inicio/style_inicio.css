@@ -76,7 +76,7 @@ html {
 }
 
 .dt:hover {
-  background-color:#1a6fbe;
+  background-color: #1a6fbe;
   color: white;
   cursor: pointer;
 }
@@ -149,7 +149,7 @@ a {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  background-color:#0d65b8;
+  background-color: #0d65b8;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -160,7 +160,7 @@ a {
 }
 
 .link2:hover {
-  background-color:#1a6fbe;
+  background-color: #1a6fbe;
   color: white;
   cursor: pointer;
   transition: 0.5s;
@@ -257,4 +257,9 @@ a {
   top: 65px;
   right: 0px;
   position: absolute;
+  transition: 1s;
+}
+
+.imagem_filme:hover {
+  transform: scale(1.01);
 }

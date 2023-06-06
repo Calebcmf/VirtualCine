@@ -11,5 +11,5 @@
     $resultado = $comando->execute();
  
     //para voltar no fomulário:
-    header("Location: ../endereco/endereco.html");
+    header("Location: ../aprovacao/aprovacao_pagamento.html");
 ?>

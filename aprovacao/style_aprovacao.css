@@ -1,0 +1,110 @@
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #0d131a;
+}
+
+.meio {
+    width: 30%;
+    height: 60%;
+    background-color: #111a25;
+    box-shadow: 1px 1px 100px 3px rgba(0, 0, 0, 0.253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    animation: slideInUp 1.5s;
+    transition: 0.5s;
+    color: white;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meio:hover {
+    background-color: #141e2c;
+}
+
+.barra {
+    width: 85%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    animation: slideInDown 1.5s;
+    position: fixed;
+    top: 10px;
+}
+
+.linha {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid 5px white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    animation: anima 6s;
+    transition: 0.5s;
+}
+.imagem:hover
+{
+    transform: scale(1.02);
+}
+
+@keyframes anima {
+    0% {
+        rotate: 0deg;
+        opacity: 100;
+    }
+
+    30% {
+        rotate: 360deg;
+        opacity: 100;
+    }
+
+    70% {
+        rotate: 720deg;
+        opacity: 100;
+    }
+
+    90% {
+        rotate: 1080deg;
+        opacity: 100;
+    }
+
+    100% {
+        rotate: 1080deg;
+        opacity: 0;
+    }
+}
