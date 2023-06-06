@@ -84,7 +84,6 @@ html {
 
 @keyframes anima {
     0% {
-        rotate: 0deg;
         opacity: 100;
     }
 
