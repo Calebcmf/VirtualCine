@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Usuário</title>
+	<link rel="stylesheet" href="salvar_imagem.css">
+	<link rel="stylesheet" href="../filmes/style_menufilme.css">
+	<script src="../filmes/java_menufilmes.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+</head>
+
+<body>
+	<div class="navigation">
+		<ul>
+			<img src="../imagens/vc.png" width="80%">
+			<br><br>
+			<li class="list">
+				<a href="../filmes/tela_filmes.html">
+					<span class="icon"><ion-icon name="home"></ion-icon></span>
+					<span class="title">Home</span>
+				</a>
+			</li>
+			<li class="list">
+				<a href="../pesquisa/pesquisa.html">
+					<span class="icon"><ion-icon name="search-outline"></ion-icon></ion-icon></span>
+					<span class="title">Pesquisa</span>
+				</a>
+			</li>
+			<li class="list active">
+				<a href="../usuario/usuario.html">
+					<span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+					<span class="title">Conta</span>
+				</a>
+			</li>
+			<li class="list">
+				<a href="../fale_conosco/fale_conosco.html">
+					<span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+					<span class="title">Ajuda</span>
+				</a>
+			</li>
+			<li class="list">
+				<a href="#">
+					<span class="icon"><ion-icon name="log-out"></ion-icon></span>
+					<span class="title">Sair</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="container">
+		<form class="formulario" action="salvar_imagem.php" method="post" enctype="multipart/form-data">
+			CPF: 
+			<input type="text" name="cpf" class="caixa"> <br>
+			Senha: 
+			<input type="text" name="senha" class="caixa">
+			<br> <br>
+			Selecione uma imagem: <br><input type="file" id="imagem" name="imagem">
+			<br> <br>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+
+
+</body>
+
+</html>
