@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 body {
     background-color: #010811;
     display: flex;
@@ -25,25 +17,27 @@ body {
 .container {
     width: 50%;
     height: 50%;
-    background: linear-gradient(to right, #1e7cd3, #348bdd);
+    background-color: #0f1924;
     padding: 80px 70px;
     border-radius: 10px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 25px;
+    transition: 0.5s;
 }
-
+.container:hover
+{
+    background-color: #131e2b;
+}
 .enviar {
-    padding: 10px;
-    background-color: #0d65b8;
+    background-color: #2a87dd;
     color: white;
     border-radius: 10px;
-    outline: none;
     border: none;
     cursor: pointer;
-    position: absolute;
-    opacity: 0;
-    transition: 1s all ease-in-out;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
 }
 .formulario
 {
@@ -51,6 +45,13 @@ body {
     height: 100%;
 }
 .caixa{
-    width: 50%;
+    width: 90%;
     height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+}
+.tabela
+{
+    width: 80%;
 }

@@ -53,14 +53,29 @@
 	</div>
 	<div class="container">
 		<form class="formulario" action="salvar_imagem.php" method="post" enctype="multipart/form-data">
-			CPF: 
-			<input type="text" name="cpf" class="caixa"> <br>
-			Senha: 
-			<input type="text" name="senha" class="caixa">
-			<br> <br>
-			Selecione uma imagem: <br><input type="file" id="imagem" name="imagem">
-			<br> <br>
-			<input type="submit" value="Enviar">
+			<table class="tabela">
+				<tr>
+					<td>
+						CPF:
+					</td>
+					<td>
+						<input type="text" name="cpf" class="caixa">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Senha:
+					</td>
+					<td>
+						<input type="text" name="senha" class="caixa">
+					</td>
+				</tr>
+			</table>
+				<br> <br>
+				Selecione uma imagem: <br><input type="file" id="imagem" name="imagem">
+				<br> <br>
+				<input type="submit" value="Enviar" class="enviar">
+			
 		</form>
 	</div>
 
