@@ -10,7 +10,7 @@ html {
     justify-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: #0d131a;
+    background-color: #030b16;
 }
 
 .fundo {
@@ -37,7 +37,7 @@ html {
     justify-content: space-around;
     border-radius: 20px;
     animation: slideInUp 1.5s;
-    box-shadow: 1px 1px 1px 1px 10px rgba(0, 0, 0, 0.39);
+    box-shadow: 1px 1px 1px 1px 10px rgba(0, 0, 0, 0.274);
     transition: 0.5s;
     text-indent: 20px;
 }

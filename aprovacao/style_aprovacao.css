@@ -10,14 +10,14 @@ html {
     justify-items: center;
     justify-content: center;
     overflow: hidden;
-    background-color: #0d131a;
+    background-color: #030b16;
 }
 
 .meio {
     width: 30%;
     height: 60%;
     background-color: #111a25;
-    box-shadow: 1px 1px 100px 3px rgba(0, 0, 0, 0.253);
+    box-shadow: 1px 1px 100px 1px rgba(0, 0, 0, 0.096);
     display: flex;
     flex-direction: column;
     align-items: center;

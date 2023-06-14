@@ -6,10 +6,18 @@
   box-sizing: border-box;
   list-style: none;
   font-family: 'Josefin Sans', sans-serif;
+  -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
 }
 
 body {
-  background-color: #010811;
+  background-color: #030b16;
   display: flex;
   width: 100%;
   height: auto;
@@ -143,7 +151,7 @@ body {
   transition: 0.5s;
   color: rgb(255, 255, 255);
   font-size: large;
-  background: rgba(12, 13, 15, 0.808);
+  background: rgba(19, 21, 26, 0.808);
   border-radius: 0 0 8px 8px;
   position: relative;
   top: -10px;
