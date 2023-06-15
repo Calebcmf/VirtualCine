@@ -1,62 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="style_cartão.css"/>
+    <link rel="stylesheet" type="text/css" href="style_cartão.css" />
     <title>Pagamento</title>
 </head>
+
 <body>
     <div class="fundo">
         <div class="barra">
             <a href="../inicio/inicio.html" target="_self">
-            <img src="../imagens/vc.png" width="50%">
+                <img src="../imagens/vc.png" width="50%">
             </a>
             <div class="link3"></div>
         </div>
-        <div class="meio">  
-            <form class="formulario_cartao" action="php_inserircartão.php" method="post">
-                <fieldset>
-                    <legend>PAGAMENTO</legend>
-                    <div class="texto">Titular Do Cartão:</div>
-                    <input type="text" class="caixa_larga" name="titular" placeholder="Nome do Titular" id="nome">
-                    <br>
-                    <div class="texto">Numero do Cartão:</div>
-                    <input type="text" class="caixa_larga" id="num_cartao" name="num_cartao" placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
-                    <br>
-                    <div class="data_valid">
-                        <div class="cvv">
-                            CVV: <br>
-                            <input type="number" class="caixa_larga" name="cvv" placeholder="- - -" id="cvv" onkeyup="ValidacaoCVV();">
+        <div class="container">
+            <div class="meio">
+                <form class="formulario_cartao" action="php_inserircartão.php" method="post">
+                    <fieldset>
+                        <legend>PAGAMENTO</legend>
+                        <div class="texto">Titular Do Cartão:</div>
+                        <input type="text" class="caixa_larga" name="titular" placeholder="Nome do Titular" id="nome">
+                        <br>
+                        <div class="texto">Numero do Cartão:</div>
+                        <input type="text" class="caixa_larga" id="num_cartao" name="num_cartao"
+                            placeholder="0000 0000 0000 0000" onkeyup="ValidacaoNum();">
+                        <br>
+                        <div class="data_valid">
+                            <div class="cvv">
+                                CVV: <br>
+                                <input type="number" class="caixa_larga" name="cvv" placeholder="- - -" id="cvv"
+                                    onkeyup="ValidacaoCVV();">
+                            </div>
+                            <div class="valid">
+                                Validade: <br>
+                                <input type="text" class="caixa_larga" name="valid" placeholder="00/00" id="valid">
+                            </div>
                         </div>
-                        <div class="valid">
-                            Validade: <br>
-                            <input type="text" class="caixa_larga" name="valid" placeholder="00/00" id="valid">
+
+                        <div class="texto">Tipo do Cartão:</div>
+                        <div class="cartao_bandeira">
+                            <select onchange="ValidarBandeira();" id="cartao" name="cartao" class="cartao">
+                                <option value="credito">Cartão de Crédito</option>
+                                <option value="debito">Cartão de Débito</option>
+                            </select>
+                            <select id="bandeira" class="bandeira">
+                                <option>MasterCard</option>
+                                <option>Elo</option>
+                                <option>Visa</option>
+                            </select>
                         </div>
+                    </fieldset>
+                    <div class="botoes">
+                        <a href="../cadastro/cadastro.html" target="_self" class="link">Voltar</a>
+                        <input type="submit" value="Continuar" class="link4">
                     </div>
                 
-                    <div class="texto">Tipo do Cartão:</div>
-                    <div class="cartao_bandeira">
-                        <select onchange="ValidarBandeira();" id="cartao" class="cartao">
-                            <option value="credito">Cartão de Crédito</option>
-                            <option value="debito">Cartão de Débito</option>
-                        </select>
-                        <select id="bandeira" class="bandeira">
-                            <option>MasterCard</option>
-                            <option>Elo</option>
-                            <option>Visa</option>
-                        </select>
-                    </div>
-                </fieldset>
-                <div class="botoes"> 
-                    <a href="../cadastro/cadastro.html" target="_self" class="link">Voltar</a> 
-                    <input type="submit" value="Continuar" class="link4"> 
-                </div>
-            </form>
-            <br>
+                <br>
+            </div>
+        
+            <div class="planos">
+                <table>
+                    <tr>
+                        <td>
+                            <input type="radio" name="plano" value="individuo" checked>
+                        </td>
+                        <td>
+                            <em>Plano Individual</em>(R$10,00)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="plano" value="familia">
+                        </td>
+                        <td>
+                            <em>Plano Família</em>(R$20,00)
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
         </div>
+    </div>
 </body>
 
 <script src="java_cartao.js"></script>
