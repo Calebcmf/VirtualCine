@@ -47,6 +47,8 @@ html {
   width: 100vw;
   display: flex;
   flex-direction: row;
+  position: relative;
+  top: 20px;
 }
 
 .titulo {
@@ -254,8 +256,8 @@ a {
 }
 
 .imagem_filme {
-  top: 65px;
-  right: 0px;
+  top: 70px;
+  right: 10px;
   position: absolute;
   transition: 1s;
 }
