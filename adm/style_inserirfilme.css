@@ -1,0 +1,182 @@
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #030b16;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
+}
+
+.fundo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.meio {
+    width: 30%;
+    height: 55%;
+    background-color: #111a25;
+    box-shadow: 1px 1px 100px 1px rgba(0, 0, 0, 0.096);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    animation: slideInUp 1.5s;
+    transition: 0.5s;
+    text-indent: 20px;
+}
+
+.meio:hover {
+    background-color: #141e2c;
+}
+
+fieldset {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 60%;
+    font-size: 25px;
+    border: none;
+    text-indent: 10px;
+}
+
+.caixa_larga1 {
+    width: 95%;
+    height: 45px;
+    font-size: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    outline: none;
+    border-radius: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+.escrita {
+    color: white;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 87%;
+    position: relative;
+    top: 20px;
+}
+
+.barra {
+    width: 85%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    animation: slideInDown 1.5s;
+    position: fixed;
+    top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+    width: 45%;
+    height: 90%;
+    border-radius: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #cfcfcf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    text-indent: -1px;
+}
+
+.link:hover {
+    background-color: #e7e7e7;
+    color: black;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+
+.confirmar {
+    text-decoration: none;
+    cursor: pointer;
+    width: 45%;
+    height: 15%;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #0d65b8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.confirmar:hover {
+    background-color: #1a6fbe;
+    border: 1px solid rgba(255, 255, 255, 0.699);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+}
+
+.errado {
+    background-color: rgb(255, 200, 200);
+}
+
+.certo {
+    background-color: rgb(218, 247, 252);
+}
+
+.aviso {
+    color: rgb(255, 187, 187);
+    font-size: 48%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+}
+
+.formulario {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}

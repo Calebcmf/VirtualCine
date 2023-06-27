@@ -68,25 +68,3 @@
 .navigation ul li.active{
   background: #0d65b8;
 }
-.navigation ul li.active a::before{
-  content: '';
-  position: absolute;
-  top: -30%;
-  right: 0;
-  width: 30px;
-  height: 30px;
-  background: #010913;
-  border-radius: 50px;
-  box-shadow:15px 15px 0 #0d65b8;
-}
-.navigation ul li.active a::after{
-  content: '';
-  position: absolute;
-  bottom: -30%;
-  right: 0;
-  width: 30px;
-  height: 30px;
-  background: #010913;
-  border-radius: 50px;
-  box-shadow:15px -15px #0d65b8;
-}

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style_adm.css"/>
+    <link rel="stylesheet" type="text/css" href="style_adm.css" />
     <title>Tela de Administrador</title>
 </head>
+
 <body>
     <div class="barra">
         <a href="inicio.html" target="_self">
@@ -14,35 +16,38 @@
         </a>
         Administrador
     </div>
-    <div class="dados"> 
-        <div class="pesquisar">
-            <input type="text" class="caixa_pesquisar" id="pesquisar" placeholder="Nome do Usuário">
-            <button class="pesquisar_botao"><img src="../imagens/Lupa.png" width="90%"></button>
-        </div>
-        <br><br>
-        <div class="texto">
-            <br>
-            <div class="titulo"> <b> Dados do Usuário</b> </div> 
-            <br> Id do Usuário: <br><input type="text" class="caixa" id="id">
-            <br> Nome: <br><input type="text" class="caixa" id="nome">
-            <br> CPF: <br><input type="text" class="caixa" id="cpf">
-            <br> E-mail: <br><input type="text" class="caixa" id="email">
-            <br> Senha: <br><input type="password" class="caixa" id="senha">
+    <div class="dados">
+        <form class="formulario" action="php_pesquisaadm.php" method="post">
+            <div class="pesquisar">
+                <input type="text" class="caixa_pesquisar" id="pesquisar" placeholder="Nome do Usuário">
+                <button class="pesquisar_botao"><img src="../imagens/Lupa.png" width="90%"></button>
+            </div>
             <br><br>
-            <div class="titulo"> Dados do Cartão </div> 
-            <br>  N° do Cartão: <br><input type="text" class="caixa" id="num_cartao">
-            <br> Titular: <br><input type="text" class="caixa" id="titular">
-            <br> CVV: <br><input type="text" class="caixa" id="cvv">
-            <br> Data de Valid.: <br><input type="text" class="caixa" id="data_valid">
-            <br> Forma de Pagamento: <br><input type="text" class="caixa" id="forma_pag">
+            <div class="texto">
+                <br>
+                <div class="titulo"> <b> Dados do Usuário</b> </div>
+                <br> Id do Usuário: <br><input type="text" class="caixa" id="id" name="id">
+                <br> Nome: <br><input type="text" class="caixa" id="nome" name="nome">
+                <br> CPF: <br><input type="text" class="caixa" id="cpf" name="cpf">
+                <br> E-mail: <br><input type="text" class="caixa" id="email" name="email">
+                <br> Senha: <br><input type="password" class="caixa" id="senha" name="senha">
+                <br><br>
+                <div class="titulo"> Dados do Cartão </div>
+                <br> N° do Cartão: <br><input type="text" class="caixa" id="num_cartao" name="num_cartao">
+                <br> Titular: <br><input type="text" class="caixa" id="titular" name="titular">
+                <br> CVV: <br><input type="text" class="caixa" id="cvv" name="cvv">
+                <br> Data de Valid.: <br><input type="text" class="caixa" id="data_valid" name="data_valid">
+                <br> Forma de Pagamento: <br><input type="text" class="caixa" id="forma_pag" name="forma_pag">
+                <br><br>
+            </div>
             <br><br>
-        </div>
-        <br><br>
-        <div class="botoes">
-            <button class="excluir">Excluir</button>
-            <button class="inserir">Inserir</button>
-            <button class="alterar">Alterar</button>
-        </div>
+            <div class="botoes">
+                <button class="excluir" name="excluir">Excluir</button>
+                <button class="inserir" name="inserir">Inserir</button>
+                <button class="alterar" name="alterar">Alterar</button>
+            </div>
+        </form>
     </div>
 </body>
+
 </html>

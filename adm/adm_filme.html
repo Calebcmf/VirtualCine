@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_inserirfilme.css" />
+    <title>Tela de Administrador</title>
+</head>
+
+<body>
+    <div class="barra">
+        <a href="inicio.html" target="_self">
+            <img src="../imagens/vc.png" width="50%">
+        </a>
+        Administrador
+    </div>
+    <div class="meio">
+        <form class="formulario" action="php_inserirfilme.php" method="post">
+            <fieldset>
+                <legend>Cadastro de Filme</legend>
+                Poster:
+                <input type="file" id="imagem" name="imagem">
+                <div class="texto">Título: </div>
+                <input type="text" class="caixa_larga1" name="titulo">
+                <br>
+                <div class="texto">Descrição:</div>
+                <input type="text" class="caixa_larga1" name="descricao">
+            </fieldset>
+            <input type="submit" value="Confirmar" class="confirmar">
+        </form>
+    </div>
+</body>
+
+</html>
