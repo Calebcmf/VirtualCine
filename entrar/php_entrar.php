@@ -15,7 +15,7 @@
         header("Location: ../filmes/tela_filmes.html");
     } else {
         // Email ou senha incorretos
-        echo "Email ou senha incorretos. Tente novamente!";
+        header("Location: incorreto.html");
     }
 
    
