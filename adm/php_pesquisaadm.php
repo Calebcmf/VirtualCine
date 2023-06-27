@@ -16,4 +16,5 @@
     
 
     $resultado = $comando->execute();
+    header("Location: adm.html");
 ?>

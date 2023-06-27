@@ -13,17 +13,17 @@ body {
 
 .dados {
   height: 75%;
-  width: 60%;
-  background-color: #033857;
+  width: 50%;
+  background-color: #111a25;
+  box-shadow: 1px 1px 100px 1px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-items: center;
   justify-content: center;
-  border: white;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid white;
 }
 
 .botoes {
@@ -114,8 +114,11 @@ button:hover {
 }
 
 .caixa {
-  width: 90%;
-  height: 25px;
+  width: 80%;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+  border: none;
 }
 
 .pesquisar {

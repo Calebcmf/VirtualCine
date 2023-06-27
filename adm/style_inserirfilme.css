@@ -74,6 +74,17 @@ fieldset {
     padding-left: 10px;
     border: none;
 }
+textarea {
+    width: 95%;
+    height: 120px;
+    font-size: 80%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    resize: none;
+}
 
 .escrita {
     color: white;
@@ -152,21 +163,6 @@ fieldset {
     color: white;
     cursor: pointer;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
-}
-
-.errado {
-    background-color: rgb(255, 200, 200);
-}
-
-.certo {
-    background-color: rgb(218, 247, 252);
-}
-
-.aviso {
-    color: rgb(255, 187, 187);
-    font-size: 48%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 90%;
 }
 
 .formulario {

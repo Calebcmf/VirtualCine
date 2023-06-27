@@ -17,7 +17,7 @@
         Administrador
     </div>
     <div class="meio">
-        <form class="formulario" action="php_inserirfilme.php" method="post">
+        <form class="formulario" action="php_inserirfilme.php" method="post" enctype="multipart/form-data">
             <fieldset>
                 <legend>Cadastro de Filme</legend>
                 Poster:
@@ -26,7 +26,7 @@
                 <input type="text" class="caixa_larga1" name="titulo">
                 <br>
                 <div class="texto">Descrição:</div>
-                <input type="text" class="caixa_larga1" name="descricao">
+                <textarea name="descricao" class="caixa_larga"></textarea>
             </fieldset>
             <input type="submit" value="Confirmar" class="confirmar">
         </form>
