@@ -112,7 +112,7 @@ a
   position: absolute;
   width: 250px;
   left: 30px;
-  top: 90px;
+  top: 70px;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
