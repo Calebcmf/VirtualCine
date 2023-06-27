@@ -1,17 +1,17 @@
 html,
 body {
-    height: 350vh;
-    width: 100%;
-    background-color: #030b16;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow-x: hidden;
-    padding-left: 10px;
+  height: 350vh;
+  width: 100%;
+  background-color: #030b16;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: hidden;
+  padding-left: 10px;
 }
-  
+
 .container {
-  background-color:  #010811;
+  background-color: #010811;
   height: 380vh;
   display: flex;
   flex-direction: column;
@@ -35,16 +35,6 @@ body {
   margin: 30px 0;
 }
 
-.featured-button {
-  background-color: #0d65b8;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 30px;
-  border: none;
-  outline: none;
-  font-weight: bold;
-}
-
 .carrossel_container {
   padding: 0 20px;
   margin-top: 30px;
@@ -54,7 +44,6 @@ body {
   display: flex;
   align-items: center;
   height: 300px;
-
   transition: all 1s ease-in-out;
 }
 
@@ -74,14 +63,15 @@ body {
   margin: 0 10px;
   opacity: 0.5;
 }
-a
-{
+
+a {
   text-decoration: none;
 }
+
 .conjunto_filmes:hover .nome_filme,
 .conjunto_filmes:hover .descricao_filme,
 .conjunto_filmes:hover .botao_assistir {
-  opacity: 1;
+  opacity: 100;
 }
 
 .imagem_filme {
@@ -106,7 +96,7 @@ a
 }
 
 .descricao_filme {
-  background-color:  #010811b2;
+  background-color: #010811b2;
   padding: 10px;
   font-size: 14px;
   position: absolute;
@@ -132,7 +122,12 @@ a
   transition: 1s all ease-in-out;
 }
 
+.botao_assistir:hover {
+  background-color: #227dd3;
+}
+
 ::-webkit-scrollbar
+
 /* barra de rolagem */
   {
   width: 14px;
