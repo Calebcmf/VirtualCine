@@ -8,6 +8,14 @@ body {
   justify-content: space-between;
   overflow-x: hidden;
   padding-left: 10px;
+  -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Versões padrão */
 }
 
 .container {
