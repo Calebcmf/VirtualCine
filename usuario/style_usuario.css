@@ -127,3 +127,66 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #004974;
 }
+
+.accordion-container {
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+/* ACCORDIAN TAB */
+.accordion-tab label {
+  background-color: #191e24;
+  color: white;
+  display: block;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 2px 0;
+  box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.accordion-tab label::after {
+  content: '+';
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: large;
+  font-weight: 500;
+  color: #288ff0;
+}
+
+.accordion-tab input:checked~label::after {
+  content: '-';
+  font-weight: 600;
+  font-size: large;
+  top: 10;
+}
+
+.accordion-tab input {
+  display: none;
+}
+
+.accordion-tab .termos {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  background: rgba(19, 21, 26, 0.808);
+  border-radius: 0 0 8px 8px;
+  position: relative;
+  top: -10px;
+  z-index: -1;
+  border: 1px solid rgba(128, 128, 128, 0.204);
+}
+
+.termos p {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.accordion-tab input:checked~.termos {
+  max-height: 150vh;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.288);
+}
